@@ -70,6 +70,7 @@ export default function App() {
   const [searchTerm, setSearchTerm] = useState('');
   const [filterSection, setFilterSection] = useState('all');
   const [filterBookmarkOnly, setFilterBookmarkOnly] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     fetch('/questions.json')
@@ -184,7 +185,7 @@ export default function App() {
       {/* Header */}
       <header className="bg-slate-900 text-white shadow-md sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
-          <div className="flex items-center space-x-2.5 cursor-pointer" onClick={() => setActiveTab('dashboard')}>
+          <div className="flex items-center space-x-2.5 cursor-pointer" onClick={() => { setActiveTab('dashboard'); setMobileMenuOpen(false); }}>
             <div className="bg-blue-600 p-1.5 rounded-lg text-white">
               <BookOpen className="w-5 h-5" />
             </div>
@@ -194,45 +195,96 @@ export default function App() {
             </div>
           </div>
 
-          <nav className="flex items-center gap-1 md:gap-2">
+          {/* Desktop Nav */}
+          <nav className="hidden md:flex items-center gap-2">
             <button 
               onClick={() => setActiveTab('dashboard')}
-              className={`px-2.5 py-1.5 md:px-3.5 md:py-2 rounded-lg text-xs md:text-sm font-medium transition ${activeTab === 'dashboard' ? 'bg-blue-600 text-white shadow' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'}`}
-              title="Sākums"
+              className={`px-3.5 py-2 rounded-lg text-sm font-medium transition ${activeTab === 'dashboard' ? 'bg-blue-600 text-white shadow' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'}`}
             >
-              <span className="hidden sm:inline">Sākums</span>
-              <span className="sm:hidden">🏠</span>
+              Sākums
             </button>
             <button 
               onClick={() => { setActiveTab('study'); setStudyIndex(0); setStudyShowResult(false); setStudySelectedAnswers({}); }}
-              className={`px-2.5 py-1.5 md:px-3.5 md:py-2 rounded-lg text-xs md:text-sm font-medium transition ${activeTab === 'study' ? 'bg-blue-600 text-white shadow' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'}`}
-              title="Mācīties"
+              className={`px-3.5 py-2 rounded-lg text-sm font-medium transition ${activeTab === 'study' ? 'bg-blue-600 text-white shadow' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'}`}
             >
-              <span>Mācīties</span> <span className="text-[10px] opacity-80">({questions.length})</span>
+              Mācīties ({questions.length})
             </button>
             <button 
               onClick={startExam}
-              className={`px-2.5 py-1.5 md:px-3.5 md:py-2 rounded-lg text-xs md:text-sm font-medium transition flex items-center gap-1 ${activeTab === 'exam' ? 'bg-emerald-600 text-white shadow' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'}`}
-              title="Eksāmena tests"
+              className={`px-3.5 py-2 rounded-lg text-sm font-medium transition flex items-center gap-1.5 ${activeTab === 'exam' ? 'bg-emerald-600 text-white shadow' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'}`}
             >
-              <Play className="w-3.5 h-3.5 fill-current" /> <span className="hidden sm:inline">Eksāmens</span> <span className="sm:hidden">Tests</span>
+              <Play className="w-4 h-4 fill-current" /> Eksāmena tests
             </button>
             <button 
               onClick={() => setActiveTab('bookmarks')}
-              className={`px-2.5 py-1.5 md:px-3.5 md:py-2 rounded-lg text-xs md:text-sm font-medium transition flex items-center gap-1 ${activeTab === 'bookmarks' ? 'bg-blue-600 text-white shadow' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'}`}
-              title="Atzīmētie"
+              className={`px-3.5 py-2 rounded-lg text-sm font-medium transition flex items-center gap-1.5 ${activeTab === 'bookmarks' ? 'bg-blue-600 text-white shadow' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'}`}
             >
-              <Bookmark className="w-3.5 h-3.5" /> <span className="hidden lg:inline">Atzīmētie</span> <span className="text-[10px]">({bookmarks.length})</span>
+              <Bookmark className="w-4 h-4" /> Atzīmētie ({bookmarks.length})
             </button>
             <button 
               onClick={() => setActiveTab('stats')}
-              className={`px-2.5 py-1.5 md:px-3.5 md:py-2 rounded-lg text-xs md:text-sm font-medium transition flex items-center gap-1 ${activeTab === 'stats' ? 'bg-blue-600 text-white shadow' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'}`}
-              title="Statistika"
+              className={`px-3.5 py-2 rounded-lg text-sm font-medium transition flex items-center gap-1.5 ${activeTab === 'stats' ? 'bg-blue-600 text-white shadow' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'}`}
             >
-              <BarChart3 className="w-3.5 h-3.5" /> <span className="hidden lg:inline">Statistika</span>
+              <BarChart3 className="w-4 h-4" /> Statistika
             </button>
           </nav>
+
+          {/* Mobile Menu Button */}
+          <div className="flex md:hidden items-center gap-2">
+            <button
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="bg-slate-800 text-slate-200 p-2 rounded-lg hover:bg-slate-700 transition focus:outline-none"
+              aria-label="Toggle Menu"
+            >
+              {mobileMenuOpen ? (
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"/></svg>
+              ) : (
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+              )}
+            </button>
+          </div>
         </div>
+
+        {/* Mobile Dropdown Menu */}
+        {mobileMenuOpen && (
+          <nav className="md:hidden bg-slate-900 border-t border-slate-800 px-4 py-4 space-y-2 animate-fadeIn shadow-xl">
+            <button 
+              onClick={() => { setActiveTab('dashboard'); setMobileMenuOpen(false); }}
+              className={`w-full text-left px-4 py-3 rounded-xl text-sm font-medium transition flex items-center justify-between ${activeTab === 'dashboard' ? 'bg-blue-600 text-white shadow' : 'bg-slate-800/80 text-slate-200'}`}
+            >
+              <span>Sākums</span>
+              <span>🏠</span>
+            </button>
+            <button 
+              onClick={() => { setActiveTab('study'); setStudyIndex(0); setStudyShowResult(false); setStudySelectedAnswers({}); setMobileMenuOpen(false); }}
+              className={`w-full text-left px-4 py-3 rounded-xl text-sm font-medium transition flex items-center justify-between ${activeTab === 'study' ? 'bg-blue-600 text-white shadow' : 'bg-slate-800/80 text-slate-200'}`}
+            >
+              <span>Mācīties</span>
+              <span className="text-xs opacity-80">{questions.length} jaut.</span>
+            </button>
+            <button 
+              onClick={() => { startExam(); setMobileMenuOpen(false); }}
+              className={`w-full text-left px-4 py-3 rounded-xl text-sm font-medium transition flex items-center justify-between ${activeTab === 'exam' ? 'bg-emerald-600 text-white shadow' : 'bg-slate-800/80 text-slate-200'}`}
+            >
+              <span>Eksāmena tests (40 jaut.)</span>
+              <Play className="w-4 h-4 fill-current" />
+            </button>
+            <button 
+              onClick={() => { setActiveTab('bookmarks'); setMobileMenuOpen(false); }}
+              className={`w-full text-left px-4 py-3 rounded-xl text-sm font-medium transition flex items-center justify-between ${activeTab === 'bookmarks' ? 'bg-blue-600 text-white shadow' : 'bg-slate-800/80 text-slate-200'}`}
+            >
+              <span>Atzīmētie jautājumi</span>
+              <span className="text-xs px-2 py-0.5 rounded-full bg-slate-700">{bookmarks.length}</span>
+            </button>
+            <button 
+              onClick={() => { setActiveTab('stats'); setMobileMenuOpen(false); }}
+              className={`w-full text-left px-4 py-3 rounded-xl text-sm font-medium transition flex items-center justify-between ${activeTab === 'stats' ? 'bg-blue-600 text-white shadow' : 'bg-slate-800/80 text-slate-200'}`}
+            >
+              <span>Statistika un progress</span>
+              <BarChart3 className="w-4 h-4" />
+            </button>
+          </nav>
+        )}
       </header>
 
       {/* Main Content Area */}
