@@ -189,8 +189,8 @@ export default function App() {
               <BookOpen className="w-6 h-6" />
             </div>
             <div>
-              <h1 className="text-xl font-bold tracking-tight">Ieroču Eksamens 2026</h1>
-              <p className="text-xs text-slate-400">Valsts policijas kvalifikācijas pārbaudījums</p>
+              <h1 className="text-xl font-bold tracking-tight">Ieroču eksāmens</h1>
+              <p className="text-xs text-slate-400">Ieroču un munīcijas aprites kvalifikācijas pārbaudījuma trenniņvide</p>
             </div>
           </div>
 
@@ -211,7 +211,7 @@ export default function App() {
               onClick={startExam}
               className={`px-3.5 py-2 rounded-lg text-sm font-medium transition flex items-center gap-1.5 ${activeTab === 'exam' ? 'bg-emerald-600 text-white shadow' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'}`}
             >
-              <Play className="w-4 h-4 fill-current" /> Eksamena Tests (40 jaut.)
+              <Play className="w-4 h-4 fill-current" /> Eksāmena tests (40 jaut.)
             </button>
             <button 
               onClick={() => setActiveTab('bookmarks')}
@@ -242,7 +242,7 @@ export default function App() {
                 </div>
                 <h2 className="text-3xl font-extrabold tracking-tight">Sagatavojies ieroču glabāšanas un nēsāšanas eksāmenam</h2>
                 <p className="text-slate-300 max-w-xl text-sm leading-relaxed">
-                  Šajā tīmekļa lietotnē apkopoti visi {questions.length} oficiālie Valsts policijas jautājumi ar pareizajām atbildēm un detalizētām sadaļām efektīvai mācīšanai un eksāmena nokārtošanai.
+                  Šajā tīmekļa lietotnē apkopoti visi {questions.length} oficiālie Ieroču un munīcijas aprites kvalifikācijas pārbaudījuma jautājumi ar pareizajām atbildēm un detalizētām sadaļām efektīvai mācīšanai un eksāmena nokārtošanai.
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-3 w-full md:w-auto">
@@ -250,13 +250,13 @@ export default function App() {
                   onClick={() => { setActiveTab('study'); setStudyIndex(0); }}
                   className="bg-blue-600 hover:bg-blue-500 text-white font-semibold px-6 py-3 rounded-xl shadow-lg transition flex items-center justify-center gap-2"
                 >
-                  <BookOpen className="w-5 h-5" /> Sākt Mācīties
+                  <BookOpen className="w-5 h-5" /> Sākt mācīties
                 </button>
                 <button 
                   onClick={startExam}
                   className="bg-emerald-600 hover:bg-emerald-500 text-white font-semibold px-6 py-3 rounded-xl shadow-lg transition flex items-center justify-center gap-2"
                 >
-                  <Award className="w-5 h-5" /> Eksamena Tests
+                  <Award className="w-5 h-5" /> Eksamena tests
                 </button>
               </div>
             </div>
@@ -268,7 +268,7 @@ export default function App() {
                   <BookOpen className="w-6 h-6" />
                 </div>
                 <div>
-                  <p className="text-sm font-medium text-slate-500">Kopā Jautājumi</p>
+                  <p className="text-sm font-medium text-slate-500">Kopā jautājumi</p>
                   <p className="text-2xl font-bold text-slate-900">{questions.length}</p>
                 </div>
               </div>
@@ -278,7 +278,7 @@ export default function App() {
                   <Award className="w-6 h-6" />
                 </div>
                 <div>
-                  <p className="text-sm font-medium text-slate-500">Nokārtoti Eksameni</p>
+                  <p className="text-sm font-medium text-slate-500">Nokārtoti eksāmeni</p>
                   <p className="text-2xl font-bold text-slate-900">{stats.passedExams} / {stats.completedExams}</p>
                 </div>
               </div>
@@ -288,7 +288,7 @@ export default function App() {
                   <CheckCircle2 className="w-6 h-6" />
                 </div>
                 <div>
-                  <p className="text-sm font-medium text-slate-500">Pareizās Atbildes</p>
+                  <p className="text-sm font-medium text-slate-500">Pareizās atbildes</p>
                   <p className="text-2xl font-bold text-slate-900">
                     {stats.totalAnswered > 0 ? Math.round((stats.correctAnswers / stats.totalAnswered) * 100) : 0}%
                   </p>
@@ -300,7 +300,7 @@ export default function App() {
                   <Bookmark className="w-6 h-6" />
                 </div>
                 <div>
-                  <p className="text-sm font-medium text-slate-500">Atzīmēti Jautājumi</p>
+                  <p className="text-sm font-medium text-slate-500">Atzīmēti jautājumi</p>
                   <p className="text-2xl font-bold text-slate-900">{bookmarks.length}</p>
                 </div>
               </div>
@@ -308,7 +308,7 @@ export default function App() {
 
             {/* Sections Breakdown */}
             <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 space-y-4">
-              <h3 className="text-lg font-bold text-slate-900">Eksāmena Tēmas un Sadaļas</h3>
+              <h3 className="text-lg font-bold text-slate-900">Eksāmena tēmas un sadaļas</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 {sections.map((sec, idx) => {
                   const secQuestions = questions.filter(q => q.section === sec);
@@ -839,12 +839,12 @@ export default function App() {
       {/* Footer */}
       <footer className="bg-slate-900 text-slate-400 py-6 mt-12 border-t border-slate-800 text-xs text-center space-y-2">
         <p className="max-w-3xl mx-auto px-4 leading-relaxed">
-          <strong className="text-slate-300">Disclaimer:</strong> this tool is provided for informational and educational purposes only, with no warranty of any kind. Ballistic and exam outputs are estimates — always confirm against official State Police sources.
+          <strong className="text-slate-300">Brīdinājums:</strong> šis rīks ir informatīvs un domāts tikai sevis izglītībai. Tas nepretendē uz absolūtu patiesību un negarantē, ka jūs noliksiet VP ieroču glabāšanas un nēsāšanas eksāmenu. Papildus informācija par eksāmenu pieejama <a href="https://www.vp.gov.lv/lv/informacija-par-ierocu-un-municijas-aprites-un-prasmju-rikoties-ar-ieroci-kvalifikacijas-parbaudijumu" target="_blank" rel="noopener" className="text-blue-400 hover:underline ml-1">šeit</a>.
         </p>
         <p className="credit">
-          MIT Licensed · Made by
+          MIT licenze · Izstrādājis
           <a href="https://estivador.io" target="_blank" rel="noopener" className="text-blue-400 hover:underline ml-1">Reinholds Zviedris</a>
-          · <a href="https://github.com/zxpower/gun-exam" target="_blank" rel="noopener" className="text-blue-400 hover:underline ml-1">Source</a>
+          · <a href="https://github.com/zxpower/gun-exam" target="_blank" rel="noopener" className="text-blue-400 hover:underline ml-1">Pirmkods</a>
         </p>
       </footer>
     </div>
