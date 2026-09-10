@@ -1,0 +1,7 @@
+services:
+  gun-exam:
+    build: .
+    container_name: gun-exam
+    ports:
+      - "8080:80"
+    restart: unless-stopped
