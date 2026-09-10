@@ -183,47 +183,53 @@ export default function App() {
     <div className="min-h-screen bg-slate-100 text-slate-900 flex flex-col font-sans">
       {/* Header */}
       <header className="bg-slate-900 text-white shadow-md sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
-          <div className="flex items-center space-x-3 cursor-pointer" onClick={() => setActiveTab('dashboard')}>
-            <div className="bg-blue-600 p-2 rounded-lg text-white">
-              <BookOpen className="w-6 h-6" />
+        <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+          <div className="flex items-center space-x-2.5 cursor-pointer" onClick={() => setActiveTab('dashboard')}>
+            <div className="bg-blue-600 p-1.5 rounded-lg text-white">
+              <BookOpen className="w-5 h-5" />
             </div>
             <div>
-              <h1 className="text-xl font-bold tracking-tight">Ieroču eksāmens</h1>
-              <p className="text-xs text-slate-400">Ieroču un munīcijas aprites kvalifikācijas pārbaudījuma trenniņvide</p>
+              <h1 className="text-base md:text-xl font-bold tracking-tight">Ieroču eksāmens</h1>
+              <p className="text-[10px] md:text-xs text-slate-400 hidden sm:block">Ieroču un munīcijas aprites kvalifikācijas pārbaudījums</p>
             </div>
           </div>
 
-          <nav className="flex flex-wrap gap-2 justify-center">
+          <nav className="flex items-center gap-1 md:gap-2">
             <button 
               onClick={() => setActiveTab('dashboard')}
-              className={`px-3.5 py-2 rounded-lg text-sm font-medium transition ${activeTab === 'dashboard' ? 'bg-blue-600 text-white shadow' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'}`}
+              className={`px-2.5 py-1.5 md:px-3.5 md:py-2 rounded-lg text-xs md:text-sm font-medium transition ${activeTab === 'dashboard' ? 'bg-blue-600 text-white shadow' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'}`}
+              title="Sākums"
             >
-              Sākums
+              <span className="hidden sm:inline">Sākums</span>
+              <span className="sm:hidden">🏠</span>
             </button>
             <button 
               onClick={() => { setActiveTab('study'); setStudyIndex(0); setStudyShowResult(false); setStudySelectedAnswers({}); }}
-              className={`px-3.5 py-2 rounded-lg text-sm font-medium transition ${activeTab === 'study' ? 'bg-blue-600 text-white shadow' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'}`}
+              className={`px-2.5 py-1.5 md:px-3.5 md:py-2 rounded-lg text-xs md:text-sm font-medium transition ${activeTab === 'study' ? 'bg-blue-600 text-white shadow' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'}`}
+              title="Mācīties"
             >
-              Mācīties (Visas: {questions.length})
+              <span>Mācīties</span> <span className="text-[10px] opacity-80">({questions.length})</span>
             </button>
             <button 
               onClick={startExam}
-              className={`px-3.5 py-2 rounded-lg text-sm font-medium transition flex items-center gap-1.5 ${activeTab === 'exam' ? 'bg-emerald-600 text-white shadow' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'}`}
+              className={`px-2.5 py-1.5 md:px-3.5 md:py-2 rounded-lg text-xs md:text-sm font-medium transition flex items-center gap-1 ${activeTab === 'exam' ? 'bg-emerald-600 text-white shadow' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'}`}
+              title="Eksāmena tests"
             >
-              <Play className="w-4 h-4 fill-current" /> Eksāmena tests (40 jaut.)
+              <Play className="w-3.5 h-3.5 fill-current" /> <span className="hidden sm:inline">Eksāmens</span> <span className="sm:hidden">Tests</span>
             </button>
             <button 
               onClick={() => setActiveTab('bookmarks')}
-              className={`px-3.5 py-2 rounded-lg text-sm font-medium transition flex items-center gap-1.5 ${activeTab === 'bookmarks' ? 'bg-blue-600 text-white shadow' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'}`}
+              className={`px-2.5 py-1.5 md:px-3.5 md:py-2 rounded-lg text-xs md:text-sm font-medium transition flex items-center gap-1 ${activeTab === 'bookmarks' ? 'bg-blue-600 text-white shadow' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'}`}
+              title="Atzīmētie"
             >
-              <Bookmark className="w-4 h-4" /> Atzīmētie ({bookmarks.length})
+              <Bookmark className="w-3.5 h-3.5" /> <span className="hidden lg:inline">Atzīmētie</span> <span className="text-[10px]">({bookmarks.length})</span>
             </button>
             <button 
               onClick={() => setActiveTab('stats')}
-              className={`px-3.5 py-2 rounded-lg text-sm font-medium transition flex items-center gap-1.5 ${activeTab === 'stats' ? 'bg-blue-600 text-white shadow' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'}`}
+              className={`px-2.5 py-1.5 md:px-3.5 md:py-2 rounded-lg text-xs md:text-sm font-medium transition flex items-center gap-1 ${activeTab === 'stats' ? 'bg-blue-600 text-white shadow' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'}`}
+              title="Statistika"
             >
-              <BarChart3 className="w-4 h-4" /> Statistika
+              <BarChart3 className="w-3.5 h-3.5" /> <span className="hidden lg:inline">Statistika</span>
             </button>
           </nav>
         </div>

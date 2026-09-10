@@ -117,7 +117,7 @@
   {
     "id": 6,
     "section": "I. Ieroču un munīcijas klasifikācija",
-    "question": "Pašaizsardzībai ir paredzēti šādi ieroči 2",
+    "question": "Pašaizsardzībai ir paredzēti šādi ieroči",
     "options": {
       "a": {
         "text": "B kategorijas pusautomātiskie, atkārtotas darbības vai viena šāviena īsstobra šaujamieroči (pistoles un revolveri), kuru kalibrs nav lielāks par 11,43 milimetriem",
@@ -251,7 +251,7 @@
         "correct": false
       },
       "d": {
-        "text": "visi norādītie varianti 3",
+        "text": "visi norādītie varianti",
         "correct": true
       }
     }
@@ -612,7 +612,7 @@
   {
     "id": 27,
     "section": "II. Ieroču, munīcijas un to sastāvdaļu aprites aizliegumi",
-    "question": "Fiziskajām personām ir aizliegts 6",
+    "question": "Fiziskajām personām ir aizliegts",
     "options": {
       "a": {
         "text": "nēsāt vai pārvadāt šaujamieročus, gāzes ieročus un signālieročus vai pneimatiskos ieročus, esot alkohola ietekmē, ja izelpotā gaisa vai asins pārbaudē konstatētā alkohola koncentrācija asinīs nepārsniedz 0,5 promiles",
@@ -1168,7 +1168,7 @@
   {
     "id": 51,
     "section": "III. Ieroču atļaujas",
-    "question": "Fiziskajai personai, kura sasniegusi 18 gadu vecumu, ir tiesības saņemt Valsts policijas atļauju un iegādāties, glabāt un izmantot šādus sporta lietojuma šaujamieročus 11",
+    "question": "Fiziskajai personai, kura sasniegusi 18 gadu vecumu, ir tiesības saņemt Valsts policijas atļauju un iegādāties, glabāt un izmantot šādus sporta lietojuma šaujamieročus",
     "options": {
       "a": {
         "text": "sportam klasificētus B un C kategorijas garstobra—gludstobra un garstobra—vītņstobra šaujamieročus",
@@ -2659,7 +2659,7 @@
         "correct": true
       },
       "c": {
-        "text": "ieroča iegādei nepieciešamo prasību izpilde (kvalifikācijas pārbaudījuma par ieroču un munīcijas aprites kārtību un prasmi rīkoties ar ieroci nokārtošana vai mednieka apliecības saņemšana, noteiktās veselības pārbaudes iziešana ārstniecības iestādē un citas darbības) 24",
+        "text": "ieroča iegādei nepieciešamo prasību izpilde (kvalifikācijas pārbaudījuma par ieroču un munīcijas aprites kārtību un prasmi rīkoties ar ieroci nokārtošana vai mednieka apliecības saņemšana, noteiktās veselības pārbaudes iziešana ārstniecības iestādē un citas darbības)",
         "correct": false
       },
       "d": {
@@ -2763,7 +2763,7 @@
   {
     "id": 120,
     "section": "IV. Šaujamieroču, to būtisko sastāvdaļu un munīcijas un speciālo līdzekļu glabāšana un nēsāšana",
-    "question": "Šaujamieroča vai lielas enerģijas pneimatiskā ieroča iegādei fiziskai personai ir nepieciešama 25",
+    "question": "Šaujamieroča vai lielas enerģijas pneimatiskā ieroča iegādei fiziskai personai ir nepieciešama",
     "options": {
       "a": {
         "text": "jebkura veida apliecība par pirmās palīdzības kursu beigšanu",
@@ -2862,7 +2862,7 @@
         "correct": false
       },
       "b": {
-        "text": "no juridiskās personas, veicot šaujamieroča, tā maināmo būtisko sastāvdaļu vai lielas enerģijas pneimatiskā ieroča īpašnieka maiņu (ieroča pārreģistrāciju) Valsts policijas struktūrvienībā, kura izsniegusi ieroča atļauju 26",
+        "text": "no juridiskās personas, veicot šaujamieroča, tā maināmo būtisko sastāvdaļu vai lielas enerģijas pneimatiskā ieroča īpašnieka maiņu (ieroča pārreģistrāciju) Valsts policijas struktūrvienībā, kura izsniegusi ieroča atļauju",
         "correct": false
       },
       "c": {
@@ -2954,7 +2954,7 @@
         "correct": false
       },
       "b": {
-        "text": "licencē norādītajā ieroču tirdzniecības vietā (ieroču veikalā) no komersanta, kurš saņēmis licenci attiecīgo ieroču un munīcijas izgatavošanai 27",
+        "text": "licencē norādītajā ieroču tirdzniecības vietā (ieroču veikalā) no komersanta, kurš saņēmis licenci attiecīgo ieroču un munīcijas izgatavošanai",
         "correct": false
       },
       "c": {
@@ -3069,7 +3069,7 @@
         "correct": false
       },
       "b": {
-        "text": "ieroča glabāšanas atļauju un savu personu apliecinošu dokumentu 28",
+        "text": "ieroča glabāšanas atļauju un savu personu apliecinošu dokumentu",
         "correct": false
       },
       "c": {
@@ -3177,7 +3177,7 @@
   {
     "id": 138,
     "section": "IV. Šaujamieroču, to būtisko sastāvdaļu un munīcijas un speciālo līdzekļu glabāšana un nēsāšana",
-    "question": "Personām, kuras saņēmušas ieroča glabāšanas atļauju, ieroča nēsāšanas atļauju vai ieroču kolekcijas atļauju, ir pienākums iziet pirmstermiņa veselības pārbaudi šādā termiņā 29",
+    "question": "Personām, kuras saņēmušas ieroča glabāšanas atļauju, ieroča nēsāšanas atļauju vai ieroču kolekcijas atļauju, ir pienākums iziet pirmstermiņa veselības pārbaudi šādā termiņā",
     "options": {
       "a": {
         "text": "mēneša laikā no ārstniecības personas nosūtījuma uz ārstu komisiju vai specializēto medicīnisko komisiju saņemšanas dienas",
@@ -3269,7 +3269,7 @@
   {
     "id": 142,
     "section": "IV. Šaujamieroču, to būtisko sastāvdaļu un munīcijas un speciālo līdzekļu glabāšana un nēsāšana",
-    "question": "Fiziskā persona, lai pagarinātu pašaizsardzības šaujamieroča glabāšanas vai nēsāšanas atļaujas derīguma termiņu 30",
+    "question": "Fiziskā persona, lai pagarinātu pašaizsardzības šaujamieroča glabāšanas vai nēsāšanas atļaujas derīguma termiņu",
     "options": {
       "a": {
         "text": "vismaz mēnesi pirms atļaujas derīguma termiņa beigām iesniedz attiecīgu iesniegumu Valsts policijā",
@@ -3364,7 +3364,7 @@
     "question": "Ja paredzēts mainīt ieroča glabāšanas vietu (adresi), ieroča īpašnieks",
     "options": {
       "a": {
-        "text": "pirms ieroča atļaujā norādītās adreses maiņas iesniedz iesniegumu Valsts policijas struktūrvienībai, kura izsniegusi ieroča glabāšanas vai nēsāšanas atļauju, atkārtotas ieroča glabāšanas vai nēsāšanas atļaujas saņemšanai 31",
+        "text": "pirms ieroča atļaujā norādītās adreses maiņas iesniedz iesniegumu Valsts policijas struktūrvienībai, kura izsniegusi ieroča glabāšanas vai nēsāšanas atļauju, atkārtotas ieroča glabāšanas vai nēsāšanas atļaujas saņemšanai",
         "correct": true
       },
       "b": {
@@ -3529,7 +3529,7 @@
         "correct": false
       },
       "b": {
-        "text": "transportlīdzeklī, ieročus un munīciju transportlīdzeklī novietojot pēc iespējas drošākā vietā, lai futrālis vai cits iesaiņojums, kurā ierocis un munīcija ievietota, nebūtu redzams no transportlīdzekļa ārpuses, aizslēdzot transportlīdzekļa durvis un bagāžas nodalījumu un 33 ieslēdzot trauksmes signalizācijas ierīci, un nodrošinot apstākļus, kas nepieļauj nejaušu ieroča vai munīcijas nokļūšanu nepiederošas personas rokās",
+        "text": "transportlīdzeklī, ieročus un munīciju transportlīdzeklī novietojot pēc iespējas drošākā vietā, lai futrālis vai cits iesaiņojums, kurā ierocis un munīcija ievietota, nebūtu redzams no transportlīdzekļa ārpuses, aizslēdzot transportlīdzekļa durvis un bagāžas nodalījumu un ieslēdzot trauksmes signalizācijas ierīci, un nodrošinot apstākļus, kas nepieļauj nejaušu ieroča vai munīcijas nokļūšanu nepiederošas personas rokās",
         "correct": false
       },
       "c": {
@@ -3637,7 +3637,7 @@
   {
     "id": 158,
     "section": "IV. Šaujamieroču, to būtisko sastāvdaļu un munīcijas un speciālo līdzekļu glabāšana un nēsāšana",
-    "question": "Atļauts īslaicīgi glabāt sporta vai medību šaujamieroci, lielas enerģijas pneimatisko ieroci un munīciju transportlīdzeklī 34",
+    "question": "Atļauts īslaicīgi glabāt sporta vai medību šaujamieroci, lielas enerģijas pneimatisko ieroci un munīciju transportlīdzeklī",
     "options": {
       "a": {
         "text": "neierobežotu laiku",
@@ -3744,7 +3744,7 @@
         "correct": false
       },
       "d": {
-        "text": "visas atbildes ir pareizas 35",
+        "text": "visas atbildes ir pareizas",
         "correct": false
       }
     }
@@ -3867,7 +3867,7 @@
   {
     "id": 168,
     "section": "IV. Šaujamieroču, to būtisko sastāvdaļu un munīcijas un speciālo līdzekļu glabāšana un nēsāšana",
-    "question": "Glabājot šaujamieroci un tā munīciju ieroča atļaujā norādītajā adresē, ir jāievēro šāda glabāšanas kārtība 36",
+    "question": "Glabājot šaujamieroci un tā munīciju ieroča atļaujā norādītajā adresē, ir jāievēro šāda glabāšanas kārtība",
     "options": {
       "a": {
         "text": "ieroci glabā bez patronas patrontelpā. Magazīnas var būt pielādētas",
@@ -3962,7 +3962,7 @@
     "question": "Glabājot šaujamieroča munīciju ieroča atļaujā norādītajā adresē, ir jāievēro šāda glabāšanas kārtība",
     "options": {
       "a": {
-        "text": "medību, sporta un pašaizsardzības šaujamieroča munīcija (patronas) ir jāglabā ieroču seifā vai metāla skapī (metāla kastē) no ieroča atsevišķā slēdzamā nodalījumā vai atsevišķā seifā, vai metāla skapī (metāla kastē) 37",
+        "text": "medību, sporta un pašaizsardzības šaujamieroča munīcija (patronas) ir jāglabā ieroču seifā vai metāla skapī (metāla kastē) no ieroča atsevišķā slēdzamā nodalījumā vai atsevišķā seifā, vai metāla skapī (metāla kastē)",
         "correct": false
       },
       "b": {
@@ -4166,7 +4166,7 @@
   {
     "id": 181,
     "section": "IV. Šaujamieroču, to būtisko sastāvdaļu un munīcijas un speciālo līdzekļu glabāšana un nēsāšana",
-    "question": "Ieroča īpašniekam, kuram šaujamieroči reģistrēti medībām vai sportam, ir tiesības ar Valsts policijas izsniegtu ieroču glabāšanas atļauju 39",
+    "question": "Ieroča īpašniekam, kuram šaujamieroči reģistrēti medībām vai sportam, ir tiesības ar Valsts policijas izsniegtu ieroču glabāšanas atļauju",
     "options": {
       "a": {
         "text": "iegādāties un glabāt līdz 30 kilogramiem šaujampulvera katram sev reģistrētajam medību vai sporta šaujamierocim",
@@ -4273,7 +4273,7 @@
         "correct": false
       },
       "d": {
-        "text": "visi varianti 40",
+        "text": "visi varianti",
         "correct": true
       }
     }
@@ -4388,7 +4388,7 @@
         "correct": false
       },
       "d": {
-        "text": "a un b variants 41",
+        "text": "a un b variants",
         "correct": true
       }
     }
@@ -4514,7 +4514,7 @@
     "question": "Bruņotu apsardzi šaujamieroču munīcijas pārvadāšanai jānodrošina, ja",
     "options": {
       "a": {
-        "text": "patronu kopējais skaits pārsniedz 1000 42",
+        "text": "patronu kopējais skaits pārsniedz 1000",
         "correct": false
       },
       "b": {
@@ -4629,7 +4629,7 @@
     "question": "Fiziskajai personai, kurai izsniegta ieroča nēsāšanas atļauja, ir aizliegts",
     "options": {
       "a": {
-        "text": "nēsāt pielādētu pistoli (ar pielādētu magazīnu, kas ievietota šaujamierocī) un pielādētu rezerves magazīnu 43",
+        "text": "nēsāt pielādētu pistoli (ar pielādētu magazīnu, kas ievietota šaujamierocī) un pielādētu rezerves magazīnu",
         "correct": false
       },
       "b": {
@@ -4752,7 +4752,7 @@
         "correct": false
       },
       "c": {
-        "text": "nodod glabāšanai ieroča komersantam 44",
+        "text": "nodod glabāšanai ieroča komersantam",
         "correct": false
       },
       "d": {
@@ -4864,7 +4864,7 @@
         "correct": true
       },
       "e": {
-        "text": "ieroci atļauts dot tikai a un b variantā noteiktajos gadījumos tajos noteiktajām personām 45",
+        "text": "ieroci atļauts dot tikai a un b variantā noteiktajos gadījumos tajos noteiktajām personām",
         "correct": false
       }
     }
@@ -4956,7 +4956,7 @@
         "correct": false
       },
       "c": {
-        "text": "sporta federācijas pilnvarotajai personai – apskatei, treniņšaušanai vai glabāšanai uz laiku 46",
+        "text": "sporta federācijas pilnvarotajai personai – apskatei, treniņšaušanai vai glabāšanai uz laiku",
         "correct": false
       },
       "d": {
@@ -5032,7 +5032,7 @@
     "question": "Ieroča īpašniekam, kuram ir ieroča glabāšanas vai nēsāšanas atļauja, aizliegts bez Valsts policijas atļaujas dot ieroci citai personai, izņemot gadījumu, ja ieroci nodod",
     "options": {
       "a": {
-        "text": "juridiskajai personai, kurai izsniegta ieroča glabāšanas atļauja –ieroča un munīcijas glabāšanai uz laiku ieroču glabātavā, ja saņemta attiecīga Valsts policijas atļauja 47",
+        "text": "juridiskajai personai, kurai izsniegta ieroča glabāšanas atļauja –ieroča un munīcijas glabāšanai uz laiku ieroču glabātavā, ja saņemta attiecīga Valsts policijas atļauja",
         "correct": false
       },
       "b": {
@@ -5136,7 +5136,7 @@
         "correct": false
       },
       "d": {
-        "text": "tikai personām, kuras nav sasniegušas treniņšaušanai noteikto minimālo vecumu 48",
+        "text": "tikai personām, kuras nav sasniegušas treniņšaušanai noteikto minimālo vecumu",
         "correct": false
       }
     }
@@ -5259,7 +5259,7 @@
   {
     "id": 228,
     "section": "IV. Šaujamieroču, to būtisko sastāvdaļu un munīcijas un speciālo līdzekļu glabāšana un nēsāšana",
-    "question": "Šautuvēs ir noteikts šāds treniņšaušanas vai šaušanas sacensību dalībnieku minimālais vecums 49",
+    "question": "Šautuvēs ir noteikts šāds treniņšaušanas vai šaušanas sacensību dalībnieku minimālais vecums",
     "options": {
       "a": {
         "text": "šaušanai ar mazkalibra B vai C kategorijas vītņstobra šaujamieročiem, kuru munīcijai ir apmales kapsele - 12 gadi",
@@ -5285,7 +5285,7 @@
     "question": "Šautuvēs ir noteikts šāds treniņšaušanas vai šaušanas sacensību dalībnieku minimālais vecums",
     "options": {
       "a": {
-        "text": "šaušanai ar B un C kategorijas šaujamieročiem — 16 gadi",
+        "text": "šaušanai ar B un C kategorijas šaujamieročiem - 16 gadi",
         "correct": true
       },
       "b": {
@@ -5293,11 +5293,11 @@
         "correct": false
       },
       "c": {
-        "text": "šaušanai ar A kategorijas šaujamieročiem — 16 gadi",
+        "text": "šaušanai ar A kategorijas šaujamieročiem - 16 gadi",
         "correct": false
       },
       "d": {
-        "text": "šaušanai ar A, B un C kategorijas šaujamieročiem — 16 gadi",
+        "text": "šaušanai ar A, B un C kategorijas šaujamieročiem - 16 gadi",
         "correct": false
       }
     }
@@ -5354,7 +5354,7 @@
     "question": "Ieroča īpašniekam, kuram ir ieroča glabāšanas vai nēsāšanas atļauja, ir tiesības realizēt sev reģistrēto šaujamieroci un lielas enerģijas pneimatisko ieroci",
     "options": {
       "a": {
-        "text": "ieroču komersantam, kas saņēmis licenci attiecīgu kategoriju ieroču realizācijai (ja ieroča īpašnieks Valsts policijā saņēmis ieroča realizēšanas atļauju) 50",
+        "text": "ieroču komersantam, kas saņēmis licenci attiecīgu kategoriju ieroču realizācijai (ja ieroča īpašnieks Valsts policijā saņēmis ieroča realizēšanas atļauju)",
         "correct": false
       },
       "b": {
@@ -5423,7 +5423,7 @@
     "question": "Fiziskā persona, kura saņēmusi ieroča realizēšanas atļauju, triju mēnešu laikā no dienas, kad Valsts policija pieņēmusi lēmumu par tās izsniegšanu, veic vienu no šādām darbībām",
     "options": {
       "a": {
-        "text": "nodod realizējamo šaujamieroci, tā maināmās būtiskās sastāvdaļas un munīciju vai lielas enerģijas pneimatisko ieroci ieroču komersantam, kas saņēmis licenci attiecīgas kategorijas ieroču realizēšanai vai dezaktivēšanai 51",
+        "text": "nodod realizējamo šaujamieroci, tā maināmās būtiskās sastāvdaļas un munīciju vai lielas enerģijas pneimatisko ieroci ieroču komersantam, kas saņēmis licenci attiecīgas kategorijas ieroču realizēšanai vai dezaktivēšanai",
         "correct": true
       },
       "b": {
@@ -5512,7 +5512,7 @@
   {
     "id": 239,
     "section": "IV. Šaujamieroču, to būtisko sastāvdaļu un munīcijas un speciālo līdzekļu glabāšana un nēsāšana",
-    "question": "Fiziskajai personai ir tiesības realizēt savā īpašumā esošo rūpnieciski ražoto pašaizsardzības, medību vai sporta šaujamieroča munīciju (ja šādai realizēšanai nav komerciāla rakstura) 52",
+    "question": "Fiziskajai personai ir tiesības realizēt savā īpašumā esošo rūpnieciski ražoto pašaizsardzības, medību vai sporta šaujamieroča munīciju (ja šādai realizēšanai nav komerciāla rakstura)",
     "options": {
       "a": {
         "text": "fiziskajai personai, kurai ir munīcijai atbilstoša šaujamieroča glabāšanas vai nēsāšanas atļauja",
@@ -5607,8 +5607,8 @@
     "question": "Realizējot savu reģistrēto šaujamieroci, fiziskā persona realizē arī",
     "options": {
       "a": {
-        "text": "visas atbildes ir pareizas",
-        "correct": true
+        "text": "šā šaujamieroča maināmās būtiskās sastāvdaļas",
+        "correct": false
       },
       "b": {
         "text": "visu realizējamā šaujamieroča munīciju (izņemot gadījumu, ja attiecīgā munīcija ir izmantojama citam sev reģistrētam šaujamierocim un atbilst ieroča atļaujā norādītajam kalibram)",
@@ -5617,6 +5617,10 @@
       "c": {
         "text": "šaujampulveri (ja personai ir realizēti visi medību vai sporta lietojuma šaujamieroči)",
         "correct": false
+      },
+      "d": {
+        "text": "visas atbildes ir pareizas",
+        "correct": true
       }
     }
   },
@@ -5630,7 +5634,7 @@
         "correct": false
       },
       "b": {
-        "text": "visu savu esošo munīciju 53",
+        "text": "visu savu esošo munīciju",
         "correct": false
       },
       "c": {
@@ -5761,7 +5765,7 @@
   {
     "id": 250,
     "section": "V. Šaujamieroču, to maināmo būtisko sastāvdaļu un munīcijas un lielas enerģijas pneimatisko ieroču realizācija, iegādāšan realizācija, iegādāšanās, reģistrācija un pārvietošana",
-    "question": "Persona var pārvadāt uz citu Eiropas Savienības dalībvalsti medībām klasificētus B kategorijas medību šaujamieročus (arī to maināmās būtiskās sastāvdaļas un patronas) izmantošanai medībās (arī treniņšaušanā un šaušanas sacensībās), ja 54",
+    "question": "Persona var pārvadāt uz citu Eiropas Savienības dalībvalsti medībām klasificētus B kategorijas medību šaujamieročus (arī to maināmās būtiskās sastāvdaļas un patronas) izmantošanai medībās (arī treniņšaušanā un šaušanas sacensībās), ja",
     "options": {
       "a": {
         "text": "ir saņemts Eiropas Savienības dalībvalsts kompetentās iestādes iepriekšējās piekrišanas dokuments B kategorijas medību šaujamieroču un munīcijas pārvadāšanai vai pārsūtīšanai un ir saņemta Valsts policijas atļauja B kategorijas medību šaujamieroču pārvadāšanai vai pārsūtīšanai",
@@ -5853,7 +5857,7 @@
   {
     "id": 254,
     "section": "V. Šaujamieroču, to maināmo būtisko sastāvdaļu un munīcijas un lielas enerģijas pneimatisko ieroču realizācija, iegādāšan realizācija, iegādāšanās, reģistrācija un pārvietošana",
-    "question": "Sporta un medību šaujamieroču īpašnieks var pārvadāt uz citu Eiropas Savienības dalībvalsti vai Eiropas Ekonomikas zonas valsti C kategorijas medību un sporta šaujamieročus (arī kopā ar to maināmām būtiskām sastāvdaļām un munīciju), ja 55",
+    "question": "Sporta un medību šaujamieroču īpašnieks var pārvadāt uz citu Eiropas Savienības dalībvalsti vai Eiropas Ekonomikas zonas valsti C kategorijas medību un sporta šaujamieročus (arī kopā ar to maināmām būtiskām sastāvdaļām un munīciju), ja",
     "options": {
       "a": {
         "text": "ir pamatojums (piemēram, ielūgums) ieroču ievešanai attiecīgajā galamērķa valstī atbilstoši to lietojuma veidam (izmantošanai medībās, treniņšaušanā vai šaušanas sacensībās)",
@@ -5960,7 +5964,7 @@
         "correct": false
       },
       "d": {
-        "text": "b un c variantā norādītie dokumenti 56",
+        "text": "b un c variantā norādītie dokumenti",
         "correct": true
       }
     }
@@ -6052,7 +6056,7 @@
         "correct": true
       },
       "d": {
-        "text": "Valsts policijā saņemt Eiropas šaujamieroču apliecību 57",
+        "text": "Valsts policijā saņemt Eiropas šaujamieroču apliecību",
         "correct": false
       }
     }
@@ -6167,7 +6171,7 @@
         "correct": false
       },
       "d": {
-        "text": "lai nepieļautu situāciju, kad nepieciešams ieroci pielietot 58",
+        "text": "lai nepieļautu situāciju, kad nepieciešams ieroci pielietot",
         "correct": false
       }
     }
@@ -6267,7 +6271,7 @@
   {
     "id": 272,
     "section": "VI. Šaujamieroču izmantošanas un pielietošanas nosacījumi un kārtība",
-    "question": "Šaujamieroča pielietošana ir 59",
+    "question": "Šaujamieroča pielietošana ir",
     "options": {
       "a": {
         "text": "šaujamieroča izvilkšana no speciālās kabatas (maksts) un sagatavošana šaušanai",
@@ -6385,7 +6389,7 @@
     "question": "Šaujamieroča pielietošana ir",
     "options": {
       "a": {
-        "text": "tēmēts šāviens, kas vērsts (šāviens tiek raidīts) pret personu, kuras rīcība ir noziedzīga, vai bīstamu dzīvnieku situācijā, kas atbilst kādam no Ieroču aprites likuma noteiktajam šaujamieroča pielietošanas gadījumam - pielietošanas nosacījumam 60",
+        "text": "tēmēts šāviens, kas vērsts (šāviens tiek raidīts) pret personu, kuras rīcība ir noziedzīga, vai bīstamu dzīvnieku situācijā, kas atbilst kādam no Ieroču aprites likuma noteiktajam šaujamieroča pielietošanas gadījumam - pielietošanas nosacījumam",
         "correct": true
       },
       "b": {
@@ -6543,7 +6547,7 @@
   {
     "id": 284,
     "section": "VI. Šaujamieroču izmantošanas un pielietošanas nosacījumi un kārtība",
-    "question": "Persona drīkst pielietot šaujamieroci kā galējo līdzekli, lai 61",
+    "question": "Persona drīkst pielietot šaujamieroci kā galējo līdzekli, lai",
     "options": {
       "a": {
         "text": "aizturētu personu, kura pārsteigta likumpārkāpuma izdarīšanas brīdī un izrāda pretošanos",
@@ -6704,7 +6708,7 @@
   {
     "id": 291,
     "section": "VI. Šaujamieroču izmantošanas un pielietošanas nosacījumi un kārtība",
-    "question": "Persona drīkst pielietot šaujamieroci kā galējo līdzekli, lai 62",
+    "question": "Persona drīkst pielietot šaujamieroci kā galējo līdzekli, lai",
     "options": {
       "a": {
         "text": "aizsargātu sevi vai citas personas no uzbrukuma, kas reāli apdraud dzīvību vai veselību",
@@ -6842,7 +6846,7 @@
   {
     "id": 297,
     "section": "VI. Šaujamieroču izmantošanas un pielietošanas nosacījumi un kārtība",
-    "question": "Šaujamieroci drīkst izmantot, lai aizbaidītu dzīvnieku 63",
+    "question": "Šaujamieroci drīkst izmantot, lai aizbaidītu dzīvnieku",
     "options": {
       "a": {
         "text": "kas apdraud cilvēka dzīvību, veselību vai mantu",
@@ -6949,7 +6953,7 @@
         "correct": false
       },
       "d": {
-        "text": "tēmēts vai netēmēts šāviens, kas nepieciešams, lai garantētu savu vai citas personas drošību 64",
+        "text": "tēmēts vai netēmēts šāviens, kas nepieciešams, lai garantētu savu vai citas personas drošību",
         "correct": false
       }
     }
@@ -7052,7 +7056,7 @@
     "question": "Persona drīkst pielietot šaujamieroci Ieroču aprites likumā noteiktos gadījumos (pastāvot šaujamieroča pielietošanas nosacījumiem)",
     "options": {
       "a": {
-        "text": "tikai kā galējo līdzekli 65",
+        "text": "tikai kā galējo līdzekli",
         "correct": false
       },
       "b": {
@@ -7152,7 +7156,7 @@
         "correct": false
       },
       "c": {
-        "text": "jebkāds citas personas prettiesisks uzbrukums 66",
+        "text": "jebkāds citas personas prettiesisks uzbrukums",
         "correct": false
       },
       "d": {
@@ -7321,7 +7325,7 @@
   {
     "id": 318,
     "section": "VI. Šaujamieroču izmantošanas un pielietošanas nosacījumi un kārtība",
-    "question": "Persona drīkst pielietot šaujamieroci kā galējo līdzekli, lai novērstu nelikumīgu mēģinājumu vardarbīgi atņemt šaujamieroci. Šaujamieroča pielietošanas nosacījuma obligātās pazīmes ir šādas 68",
+    "question": "Persona drīkst pielietot šaujamieroci kā galējo līdzekli, lai novērstu nelikumīgu mēģinājumu vardarbīgi atņemt šaujamieroci. Šaujamieroča pielietošanas nosacījuma obligātās pazīmes ir šādas",
     "options": {
       "a": {
         "text": "mēģinājums atņemts šaujamieroci ir nelikumīgs un izpaužas kā uzbrucēja aktīva rīcība – vardarbība pret ieroča īpašnieku vai arī rīcība, kas tieši neapdraud ieroča īpašnieku, piemēram, mēģinājums nozagt šaujamieroci",
@@ -7405,7 +7409,7 @@
         "correct": false
       },
       "d": {
-        "text": "visas norādītās pazīmes 69",
+        "text": "visas norādītās pazīmes",
         "correct": true
       }
     }
@@ -7597,7 +7601,7 @@
   {
     "id": 330,
     "section": "VI. Šaujamieroču izmantošanas un pielietošanas nosacījumi un kārtība",
-    "question": "Izmantojot un pielietojot šaujamieroci, ir nepieciešams 71",
+    "question": "Izmantojot un pielietojot šaujamieroci, ir nepieciešams",
     "options": {
       "a": {
         "text": "darīt visu iespējamo, lai mazinātu kaitējumu un garantētu citu personu drošību",
@@ -7715,7 +7719,7 @@
     "question": "Pirms šaujamieroča pielietošanas brīdina par nodomu to pielietot vai izdara brīdinājuma šāvienu. Jāņem vērā, ka",
     "options": {
       "a": {
-        "text": "brīdināšanai par šaujamieroča pielietošanu ir jābūt nepārprotamai un skaidri saprotamai adresātam (personai, pret kuru paredzēts pielietot ieroci). Ar brīdināšanu par šaujamieroča pielietošanu saprot mutiski izteiktu brīdinājumu 72",
+        "text": "brīdināšanai par šaujamieroča pielietošanu ir jābūt nepārprotamai un skaidri saprotamai adresātam (personai, pret kuru paredzēts pielietot ieroci). Ar brīdināšanu par šaujamieroča pielietošanu saprot mutiski izteiktu brīdinājumu",
         "correct": false
       },
       "b": {
@@ -7804,7 +7808,7 @@
   {
     "id": 339,
     "section": "VI. Šaujamieroču izmantošanas un pielietošanas nosacījumi un kārtība",
-    "question": "Pirms šaujamieroča pielietošanas brīdina par nodomu to pielietot vai izdara brīdinājuma šāvienu. Jāņem vērā, ka 73",
+    "question": "Pirms šaujamieroča pielietošanas brīdina par nodomu to pielietot vai izdara brīdinājuma šāvienu. Jāņem vērā, ka",
     "options": {
       "a": {
         "text": "pielietojot šaujamieroci pašaizsardzībai, brīdināšanas veidu (mutisku brīdināšanu vai brīdinājuma šāviena izdarīšanu) nevar izvēlēties, vispirms ir jāizdara mutisks brīdinājums",
@@ -7899,7 +7903,7 @@
     "question": "Prasība brīdināt personu pirms šaujamieroča pielietošanas uzskatāma par vispārējo kārtību, tomēr ir paredzēti izņēmumi",
     "options": {
       "a": {
-        "text": "Ieroču aprites likumā nav noteikti izņēmuma gadījumi, kad šaujamieroci atļauts pielietot bez brīdināšanas par nodomu to pielietot 74",
+        "text": "Ieroču aprites likumā nav noteikti izņēmuma gadījumi, kad šaujamieroci atļauts pielietot bez brīdināšanas par nodomu to pielietot",
         "correct": false
       },
       "b": {
@@ -8011,7 +8015,7 @@
   {
     "id": 348,
     "section": "VI. Šaujamieroču izmantošanas un pielietošanas nosacījumi un kārtība",
-    "question": "Bez brīdinājuma šaujamieroci pielieto 75",
+    "question": "Bez brīdinājuma šaujamieroci pielieto",
     "options": {
       "a": {
         "text": "ja uzbrukums reāli apdraud cilvēka dzīvību vai veselību",
@@ -8133,7 +8137,7 @@
         "correct": false
       },
       "b": {
-        "text": "aizturamā persona pretojas (vai uzbrūk), pielietojot ieročus vai priekšmetus, ar kuriem reāli tiek apdraudēta cita cilvēka dzīvība vai veselība, vai šādā uzbrukumā izmanto mehānisko 76 transportlīdzekli, kā gadījumā, ja uzbrukums, kas apdraud cilvēka dzīvību vai veselību, ir pēkšņs",
+        "text": "aizturamā persona pretojas (vai uzbrūk), pielietojot ieročus vai priekšmetus, ar kuriem reāli tiek apdraudēta cita cilvēka dzīvība vai veselība, vai šādā uzbrukumā izmanto mehānisko transportlīdzekli, kā gadījumā, ja uzbrukums, kas apdraud cilvēka dzīvību vai veselību, ir pēkšņs",
         "correct": true
       },
       "c": {
@@ -8256,7 +8260,7 @@
         "correct": false
       },
       "d": {
-        "text": "nekavējoties ziņo Valsts policijai tikai, ja ir cietušie 77",
+        "text": "nekavējoties ziņo Valsts policijai tikai, ja ir cietušie",
         "correct": false
       }
     }
@@ -8386,7 +8390,7 @@
         "correct": false
       },
       "b": {
-        "text": "Valsts policija 78",
+        "text": "Valsts policija",
         "correct": false
       },
       "c": {
@@ -8494,7 +8498,7 @@
   {
     "id": 369,
     "section": "VII. Šaujamieroču, munīcijas un to sastāvdaļu aprites kontrole",
-    "question": "Personai, kurai izsniegta ieroča atļauja, ir pienākums 79",
+    "question": "Personai, kurai izsniegta ieroča atļauja, ir pienākums",
     "options": {
       "a": {
         "text": "uzrādīt valsts iestādes amatpersonai, kuras kompetencē ietilpst ieroču aprites kontrole, šaujamieroci, munīciju, to sastāvdaļas un lielas enerģijas pneimatisko ieroci un attiecīgo ieroča atļauju",
@@ -8586,7 +8590,7 @@
   {
     "id": 373,
     "section": "VII. Šaujamieroču, munīcijas un to sastāvdaļu aprites kontrole",
-    "question": "Fizisko personu ieročus, munīciju un to sastāvdaļas atbilstoši savai kompetencei ir tiesīgs izņemt Valsts policijas darbinieks vai citas valsts pārvaldes iestādes amatpersona, ja 80",
+    "question": "Fizisko personu ieročus, munīciju un to sastāvdaļas atbilstoši savai kompetencei ir tiesīgs izņemt Valsts policijas darbinieks vai citas valsts pārvaldes iestādes amatpersona, ja",
     "options": {
       "a": {
         "text": "fiziskā persona, kurai anulēta ieroča atļauja vai apturēta tās darbība vai kurai beidzies ieroča atļaujas derīguma termiņš, nenodod ieroci, munīciju un to sastāvdaļas Valsts policijai Ieroču aprites likumā noteiktajā termiņā (piecu darbdienu laikā pēc attiecīgā paziņojuma vai lēmuma saņemšanas)",
@@ -8670,7 +8674,7 @@
         "correct": false
       },
       "d": {
-        "text": "visas atbildes ir pareizas 81",
+        "text": "visas atbildes ir pareizas",
         "correct": true
       }
     }
@@ -8785,7 +8789,7 @@
         "correct": false
       },
       "d": {
-        "text": "visi varianti un atbildību izslēdzošie apstākļi 82",
+        "text": "visi varianti un atbildību izslēdzošie apstākļi",
         "correct": false
       }
     }
@@ -8885,7 +8889,7 @@
   {
     "id": 386,
     "section": "VIII. Atbildība par ieroču un munīcijas aprites noteikumu pārkāpšanu",
-    "question": "Kriminālatbildība iestājas 83",
+    "question": "Kriminālatbildība iestājas",
     "options": {
       "a": {
         "text": "par šaujamieroča, šaujamieroča būtisko sastāvdaļu, šaujamieroča munīcijas vai lielas enerģijas pneimatiskā ieroča iegādāšanās, glabāšanas, pārvadāšanas, nēsāšanas, realizēšanas vai citu aprites noteikumu pārkāpšanu, ja to izdarījusi persona, kurai ir attiecīga ieroču atļauja",
@@ -8969,7 +8973,7 @@
         "correct": false
       },
       "d": {
-        "text": "visi varianti 84",
+        "text": "visi varianti",
         "correct": false
       }
     }
@@ -9053,7 +9057,7 @@
         "correct": false
       },
       "b": {
-        "text": "administratīvā atbildību - juridiskajai personai naudas sodu no 40 līdz 300 naudas soda vienībām, atņemot šaujamieroča, salūtieroča (akustiskā ieroča) un lielas enerģijas pneimatiskā ieroča iegādāšanās un glabāšanas tiesības uz laiku no viena gada līdz trim gadiem vai bez tā 85",
+        "text": "administratīvā atbildību - juridiskajai personai naudas sodu no 40 līdz 300 naudas soda vienībām, atņemot šaujamieroča, salūtieroča (akustiskā ieroča) un lielas enerģijas pneimatiskā ieroča iegādāšanās un glabāšanas tiesības uz laiku no viena gada līdz trim gadiem vai bez tā",
         "correct": false
       },
       "c": {
@@ -9130,7 +9134,7 @@
         "correct": true
       },
       "d": {
-        "text": "a un b variants 86",
+        "text": "a un b variants",
         "correct": false
       }
     }
@@ -9210,7 +9214,7 @@
     "question": "Kriminālatbildība iestājas par",
     "options": {
       "a": {
-        "text": "šaujamieroča vai lielas enerģijas pneimatiskā ieroča pielietošanas vai izmantošanas nosacījumu vai kārtības pārkāpšanu, ja to izdarījusi persona, kurai atļauts iegādāties, glabāt vai nēsāt šaujamieroci vai lielas enerģijas pneimatisko ieroci, un ja ar to radīts būtisks kaitējums 87",
+        "text": "šaujamieroča vai lielas enerģijas pneimatiskā ieroča pielietošanas vai izmantošanas nosacījumu vai kārtības pārkāpšanu, ja to izdarījusi persona, kurai atļauts iegādāties, glabāt vai nēsāt šaujamieroci vai lielas enerģijas pneimatisko ieroci, un ja ar to radīts būtisks kaitējums",
         "correct": false
       },
       "b": {
@@ -9287,7 +9291,7 @@
         "correct": false
       },
       "c": {
-        "text": "atteikšanos no medicīniskās pārbaudes alkohola koncentrācijas noteikšanai vai narkotisko, psihotropo, toksisko vai citu apreibinošo vielu ietekmes pārbaudes 88",
+        "text": "atteikšanos no medicīniskās pārbaudes alkohola koncentrācijas noteikšanai vai narkotisko, psihotropo, toksisko vai citu apreibinošo vielu ietekmes pārbaudes",
         "correct": false
       },
       "d": {
@@ -9368,7 +9372,7 @@
   {
     "id": 407,
     "section": "VIII. Atbildība par ieroču un munīcijas aprites noteikumu pārkāpšanu",
-    "question": "Par atteikšanos no medicīniskās pārbaudes alkohola koncentrācijas noteikšanai vai narkotisko, psihotropo, toksisko vai citu apreibinošo vielu ietekmes pārbaudes 89",
+    "question": "Par atteikšanos no medicīniskās pārbaudes alkohola koncentrācijas noteikšanai vai narkotisko, psihotropo, toksisko vai citu apreibinošo vielu ietekmes pārbaudes",
     "options": {
       "a": {
         "text": "piemēro naudas sodu no 200 līdz 400 naudas soda vienībām",
@@ -9440,7 +9444,7 @@
         "correct": true
       },
       "b": {
-        "text": "nekādā gadījumā šādu personu nevar atbrīvot no kriminālatbildības, jo par šaujamieroča, tā būtiskās sastāvdaļas un munīcijas vai lielas enerģijas pneimatiskā ieroča izgatavošanu, iegādāšanos vai glabāšanu bez attiecīgas ieroča atļaujas ir paredzēta kriminālatbildība 90",
+        "text": "nekādā gadījumā šādu personu nevar atbrīvot no kriminālatbildības, jo par šaujamieroča, tā būtiskās sastāvdaļas un munīcijas vai lielas enerģijas pneimatiskā ieroča izgatavošanu, iegādāšanos vai glabāšanu bez attiecīgas ieroča atļaujas ir paredzēta kriminālatbildība",
         "correct": false
       },
       "c": {
@@ -9524,7 +9528,7 @@
     "question": "Apstākļa, kas izslēdz kriminālatbildību, - nepieciešamās aizstāvēšanās nosacījumi un tiesiskais regulējums ir šāds",
     "options": {
       "a": {
-        "text": "personai ir tiesības uz nepieciešamo aizstāvēšanos neatkarīgi no iespējām izvairīties no uzbrukuma vai griezties pēc palīdzības pie citām personām 91",
+        "text": "personai ir tiesības uz nepieciešamo aizstāvēšanos neatkarīgi no iespējām izvairīties no uzbrukuma vai griezties pēc palīdzības pie citām personām",
         "correct": false
       },
       "b": {
@@ -9609,7 +9613,7 @@
   {
     "id": 418,
     "section": "VIII. Atbildība par ieroču un munīcijas aprites noteikumu pārkāpšanu",
-    "question": "Galējās nepieciešamības, kā kriminālatbildību izslēdzošā apstākļa situācijā, kaitējums tiek nodarīts 92",
+    "question": "Galējās nepieciešamības, kā kriminālatbildību izslēdzošā apstākļa situācijā, kaitējums tiek nodarīts",
     "options": {
       "a": {
         "text": "uzbrucējam",
@@ -9666,11 +9670,7 @@
         "correct": false
       },
       "c": {
-        "text": "uzbrucēja raksturojošās pazīmes (tās dzimum, vecums, miesasbūve, fiziskās sagatavotības un citas pazīmes) pretstatā pašam sev, uzbrucēju skaits, uzbrukuma bīstamība, intensitāte un veids,",
-        "correct": false
-      },
-      "t": {
-        "text": "sk., vai netiek izmantoti ieroči vai kādi citi priekšmeti, kas rada dzīvības vai veselības apdraudējumu vai tās draudus",
+        "text": "uzbrucēja raksturojošās pazīmes (tās dzimums, vecums, miesasbūve, fiziskās sagatavotības un citas pazīmes) pretstatā pašam sev, uzbrucēju skaits, uzbrukuma bīstamība, intensitāte un veids, t.sk., vai netiek izmantoti ieroči vai kādi citi priekšmeti, kas rada dzīvības vai veselības apdraudējumu vai tās draudus",
         "correct": false
       },
       "d": {
@@ -9797,7 +9797,7 @@
   {
     "id": 426,
     "section": "IX. Šaujamieroča un lielas enerģijas pneimatiskā ieroča uzbūve, darbības principi, darbības traucējumi un to novēršanas veidi",
-    "question": "Šaujamieroča darbības princips ir šāds 94",
+    "question": "Šaujamieroča darbības princips ir šāds",
     "options": {
       "a": {
         "text": "šāviņa izgrūšana no stobra kanāla notiek sadegot šaujampulverim, kad šāviņš saņem kinētisko enerģiju virzes kustībai gāzu spiediena rezultātā",
@@ -10007,7 +10007,7 @@
     "question": "Lielas enerģijas pneimatiskais ierocis ir",
     "options": {
       "a": {
-        "text": "pneimatiskais ierocis, kura šāviņa sākumenerģija nepārsniedz 12 džoulus 96",
+        "text": "pneimatiskais ierocis, kura šāviņa sākumenerģija nepārsniedz 12 džoulus",
         "correct": false
       },
       "b": {
@@ -10122,7 +10122,7 @@
     "question": "Automātiskā, atkārtotas darbības un viena šāviena šaujamieroča darbības princips ir šāds",
     "options": {
       "a": {
-        "text": "automātiskais šaujamierocis nodrošina šāvienu izdarīšanu līdz netiek atlaista belzējierīces palaišanas svira (sprūda mēlīte) - tas pēc katra šāviena pats uzlādējas jaunam šāvienam un, ja vienreiz tiek iedarbināts tā palaišanas mehānisms, spēj izdarīt vairākus šāvienus 97",
+        "text": "automātiskais šaujamierocis nodrošina šāvienu izdarīšanu līdz netiek atlaista belzējierīces palaišanas svira (sprūda mēlīte) - tas pēc katra šāviena pats uzlādējas jaunam šāvienam un, ja vienreiz tiek iedarbināts tā palaišanas mehānisms, spēj izdarīt vairākus šāvis",
         "correct": false
       },
       "b": {
@@ -10237,7 +10237,7 @@
     "question": "Gludstobra šaujamierocis ir",
     "options": {
       "a": {
-        "text": "ierocis, no kura šāviņu izšauj pa gludu stobra kanālu ar saspiestas gāzes palīdzību 98",
+        "text": "ierocis, no kura šāviņu izšauj pa gludu stobra kanālu ar saspiestas gāzes palīdzību",
         "correct": false
       },
       "b": {
@@ -10349,7 +10349,7 @@
   {
     "id": 450,
     "section": "IX. Šaujamieroča un lielas enerģijas pneimatiskā ieroča uzbūve, darbības principi, darbības traucējumi un to novēršanas veidi",
-    "question": "Šaujamieroča būtiskās sastāvdaļas ir 99",
+    "question": "Šaujamieroča būtiskās sastāvdaļas ir",
     "options": {
       "a": {
         "text": "šaujamieroča stobrs (arī kalibra maiņai paredzētie ieliekamie stobri un adapteri), rāmis, stobra kārba vai nolaidējmehānisma kārba, aizslēgs, patronu cilindrs, stobra apvalks, kas nostiprina stobru un pilda rāmja funkciju",
@@ -10475,7 +10475,7 @@
         "correct": false
       },
       "c": {
-        "text": "magazīna, kas pārsniedz 20 patronu ietilpību 100",
+        "text": "magazīna, kas pārsniedz 20 patronu ietilpību",
         "correct": false
       },
       "d": {
@@ -10594,7 +10594,7 @@
         "correct": false
       },
       "d": {
-        "text": "visi varianti 101",
+        "text": "visi varianti",
         "correct": true
       }
     }
@@ -10732,7 +10732,7 @@
         "correct": false
       },
       "d": {
-        "text": "visi varianti 102",
+        "text": "visi varianti",
         "correct": true
       }
     }
@@ -10870,7 +10870,7 @@
         "correct": true
       },
       "c": {
-        "text": "patronu ievadīšanai no magazīnas patrontelpā 103",
+        "text": "patronu ievadīšanai no magazīnas patrontelpā",
         "correct": false
       },
       "d": {
@@ -11020,7 +11020,7 @@
   {
     "id": 479,
     "section": "IX. Šaujamieroča un lielas enerģijas pneimatiskā ieroča uzbūve, darbības principi, darbības traucējumi un to novēršanas veidi",
-    "question": "Šaujamieroča sastāvdaļa – stobrs 104",
+    "question": "Šaujamieroča sastāvdaļa – stobrs",
     "options": {
       "a": {
         "text": "paredzēts tēmēšanai",
@@ -11150,7 +11150,7 @@
         "correct": false
       },
       "d": {
-        "text": "a un b variants 105",
+        "text": "a un b variants",
         "correct": true
       }
     }
