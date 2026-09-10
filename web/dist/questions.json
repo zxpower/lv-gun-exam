@@ -381,7 +381,7 @@
         "correct": false
       },
       "b": {
-        "text": "dezaktivētu šaujamieroču un lielas enerģijas pneimatisko ieroču aprite bez Valsts policijas izziņas vai apliecinājuma 4",
+        "text": "dezaktivētu šaujamieroču un lielas enerģijas pneimatisko ieroču aprite bez Valsts policijas izziņas vai apliecinājuma",
         "correct": true
       },
       "c": {
@@ -504,7 +504,7 @@
         "correct": false
       },
       "c": {
-        "text": "nēsāt atklātā veidā ieročus un to munīciju, dezaktivētus ieročus un speciālos līdzekļus 5",
+        "text": "nēsāt atklātā veidā ieročus un to munīciju, dezaktivētus ieročus un speciālos līdzekļus",
         "correct": false
       },
       "d": {
@@ -719,7 +719,7 @@
         "correct": false
       },
       "d": {
-        "text": "b un c variants 7",
+        "text": "b un c variants",
         "correct": true
       }
     }
@@ -826,7 +826,7 @@
         "correct": false
       },
       "b": {
-        "text": "traumatiskajiem ieročiem, elektrošoka ierīcēm un aukstajiem ieročiem, tostarp sporta un medību lokiem un arbaletiem, kā arī straikbola ieročiem, peintbola ieročiem un lāzertaga ierīcēm 8",
+        "text": "traumatiskajiem ieročiem, elektrošoka ierīcēm un aukstajiem ieročiem, tostarp sporta un medību lokiem un arbaletiem, kā arī straikbola ieročiem, peintbola ieročiem un lāzertaga ierīcēm",
         "correct": false
       },
       "c": {
@@ -945,7 +945,7 @@
         "correct": false
       },
       "c": {
-        "text": "tikai medību un sporta lietojumam klasificētu šaujamieroču glabāšanai un izmantošanai atbilstoši ieroču atļaujā norādītajam ieroča lietojuma veidam 9",
+        "text": "tikai medību un sporta lietojumam klasificētu šaujamieroču glabāšanai un izmantošanai atbilstoši ieroču atļaujā norādītajam ieroča lietojuma veidam",
         "correct": false
       }
     }
@@ -1048,7 +1048,7 @@
     "question": "Fiziskajai personai, kura sasniegusi 16 gadu vecumu, ir tiesības",
     "options": {
       "a": {
-        "text": "iegādāties, glabāt un nēsāt pašaizsardzībai E kategorijas gāzes ieročus un signālieročus 10",
+        "text": "iegādāties, glabāt un nēsāt pašaizsardzībai E kategorijas gāzes ieročus un signālieročus",
         "correct": false
       },
       "b": {
@@ -1275,7 +1275,7 @@
         "correct": false
       },
       "c": {
-        "text": "pašaizsardzībai klasificētā B un C kategorijas garstobra—gludstobra šaujamieroča maināmās būtiskās sastāvdaļas 12",
+        "text": "pašaizsardzībai klasificētā B un C kategorijas garstobra—gludstobra šaujamieroča maināmās būtiskās sastāvdaļas",
         "correct": false
       },
       "d": {
@@ -1379,7 +1379,7 @@
   {
     "id": 60,
     "section": "III. Ieroču atļaujas",
-    "question": "Fiziskā personai, kura sasniegusi 21 gadu vecumu, ar Valsts policijas atļauju drīkst iegādāties šādus pašaizsardzības lietojuma ieročus un munīciju 13",
+    "question": "Fiziskā personai, kura sasniegusi 21 gadu vecumu, ar Valsts policijas atļauju drīkst iegādāties šādus pašaizsardzības lietojuma ieročus un munīciju",
     "options": {
       "a": {
         "text": "B kategorijas pusautomātiskos, atkārtotas darbības un viena šāviena īsstobra šaujamieročus (pistoles un revolverus), kuru kalibrs nav lielāks par 11,43 milimetriem",
@@ -1524,7 +1524,7 @@
         "correct": false
       },
       "b": {
-        "text": "uz pieciem gadiem 14",
+        "text": "uz pieciem gadiem",
         "correct": true
       },
       "c": {
@@ -1643,7 +1643,7 @@
         "correct": false
       },
       "c": {
-        "text": "iegādāties tikai atļaujā norādīto ieroci bez tā munīcijas un bez šaujamieroča maināmās būtiskās sastāvdaļas, iegādāties atļaujā norādīto lielas enerģijas pneimatisko ieroci, kā arī glabāt tos līdz reģistrācijai Valsts policijā, ja nav iegādāta šaujamieroča munīcija 15",
+        "text": "iegādāties tikai atļaujā norādīto ieroci bez tā munīcijas un bez šaujamieroča maināmās būtiskās sastāvdaļas, iegādāties atļaujā norādīto lielas enerģijas pneimatisko ieroci, kā arī glabāt tos līdz reģistrācijai Valsts policijā, ja nav iegādāta šaujamieroča munīcija",
         "correct": false
       },
       "d": {
@@ -1762,7 +1762,7 @@
         "correct": false
       },
       "c": {
-        "text": "savā nekustamajā īpašumā vai kopīpašumā (dzīvoklī, dzīvojamā mājā, saimniecības vai citā būvē) 16",
+        "text": "savā nekustamajā īpašumā vai kopīpašumā (dzīvoklī, dzīvojamā mājā, saimniecības vai citā būvē)",
         "correct": false
       },
       "d": {
@@ -1885,7 +1885,7 @@
         "correct": false
       },
       "d": {
-        "text": "a un c variants 17",
+        "text": "a un c variants",
         "correct": true
       }
     }
@@ -2008,10 +2008,10 @@
   {
     "id": 87,
     "section": "III. Ieroču atļaujas",
-    "question": "Ieroča nēsāšanas atļauju izsniedz 18",
+    "question": "Ieroča nēsāšanas atļauju izsniedz",
     "options": {
       "a": {
-        "text": "visas atbildes ir pareizas",
+        "text": "pašaizsardzībai klasificētus B un C kategorijas garstobra-gludstobra šaujamieroču glabāšanai un nēsāšanai",
         "correct": false
       },
       "b": {
@@ -2020,6 +2020,10 @@
       },
       "c": {
         "text": "E kategorijas gāzes ieroču glabāšanai un nēsāšanai",
+        "correct": false
+      },
+      "d": {
+        "text": "visas atbildes ir pareizas",
         "correct": false
       }
     }
@@ -2119,7 +2123,7 @@
   {
     "id": 92,
     "section": "III. Ieroču atļaujas",
-    "question": "Ieroču kolekcijas atļauja dod tiesības 19",
+    "question": "Ieroču kolekcijas atļauja dod tiesības",
     "options": {
       "a": {
         "text": "glabāt atļaujā norādītos šaujamieročus, to būtiskās sastāvdaļas un lielas enerģijas pneimatiskos ieročus atļaujā norādītajā adresē, kā arī tos pārvadāt un eksponēt izstādēs",
@@ -2199,7 +2203,7 @@
         "correct": false
       },
       "d": {
-        "text": "visas atbildes ir pareizas 20",
+        "text": "visas atbildes ir pareizas",
         "correct": true
       }
     }
@@ -2299,7 +2303,7 @@
   {
     "id": 100,
     "section": "III. Ieroču atļaujas",
-    "question": "Ieroča iegādāšanās atļauju un ieroča glabāšanas, nēsāšanas vai kolekcijas atļauju aizliegts izsniegt fiziskajai personai 21",
+    "question": "Ieroča iegādāšanās atļauju un ieroča glabāšanas, nēsāšanas vai kolekcijas atļauju aizliegts izsniegt fiziskajai personai",
     "options": {
       "a": {
         "text": "kurai par pārkāpumiem ieroču un munīcijas aprites jomā ierobežotas (atņemtas uz laiku) ieroču iegādāšanās, glabāšanas vai nēsāšanas tiesības vai tiesības nodarboties ar komercdarbību ieroču aprites jomā, — pirms tiesību ierobežojuma termiņa beigām",
@@ -2421,7 +2425,7 @@
         "correct": true
       },
       "b": {
-        "text": "ieroča īpašnieks izvairās vai citādi traucē Valsts policijas amatpersonai pārbaudīt šaujamieroču, munīcijas un to sastāvdaļu vai lielas enerģijas pneimatisko ieroču glabāšanas apstākļus ieroču atļaujā norādītajā adresē 22",
+        "text": "ieroča īpašnieks izvairās vai citādi traucē Valsts policijas amatpersonai pārbaudīt šaujamieroču, munīcijas un to sastāvdaļu vai lielas enerģijas pneimatisko ieroču glabāšanas apstākļus ieroču atļaujā norādītajā adresē",
         "correct": false
       },
       "c": {
@@ -2532,7 +2536,7 @@
     "question": "Ja personai tiek anulēta ieroča glabāšanas vai nēsāšanas atļauja",
     "options": {
       "a": {
-        "text": "ieroci, munīciju, šaujampulveri un šaujamieroča maināmās būtiskās sastāvdaļas piecu darbdienu laikā pēc attiecīgā paziņojuma saņemšanas ir jānodod realizācijai ieroču komersantam 23",
+        "text": "ieroci, munīciju, šaujampulveri un šaujamieroča maināmās būtiskās sastāvdaļas piecu darbdienu laikā pēc attiecīgā paziņojuma saņemšanas ir jānodod realizācijai ieroču komersantam",
         "correct": false
       },
       "b": {
@@ -9693,7 +9697,7 @@
         "correct": false
       },
       "d": {
-        "text": "b un c variants galvenās sastāvdaļas un mehānismi, iespējamās kļūmes šaujot 93",
+        "text": "b un c variants galvenās sastāvdaļas un mehānismi, iespējamās kļūmes šaujot",
         "correct": true
       }
     }
@@ -11276,7 +11280,7 @@
         "correct": false
       },
       "b": {
-        "text": "tikai drošā virzienā (īpaši tā, lai stobrs netiktu vērsts pret citiem cilvēkiem un sevi) 106",
+        "text": "tikai drošā virzienā (īpaši tā, lai stobrs netiktu vērsts pret citiem cilvēkiem un sevi)",
         "correct": true
       },
       "c": {
@@ -11292,7 +11296,7 @@
   {
     "id": 491,
     "section": "X. Drošības prasības rīkojoties ar ieroci",
-    "question": "Šaujamierocis ir jātur rokās tādā vaidā, lai",
+    "question": "Šaujamierocis ir jātur rokās tādā veidā, lai",
     "options": {
       "a": {
         "text": "stobrs netiktu vērsts pret cilvēkiem",
@@ -11422,7 +11426,7 @@
         "correct": false
       },
       "d": {
-        "text": "visi varianti 107",
+        "text": "visi varianti",
         "correct": true
       }
     }
@@ -11568,7 +11572,7 @@
   {
     "id": 503,
     "section": "X. Drošības prasības rīkojoties ar ieroci",
-    "question": "Šaujamieroča pielādēšanu veic 108",
+    "question": "Šaujamieroča pielādēšanu veic",
     "options": {
       "a": {
         "text": "ievietojot patronas magazīnā",
@@ -11659,7 +11663,7 @@
     "question": "Drošības prasības, veicot šaujamieroča (pistoles) nepilno izjaukšanu",
     "options": {
       "a": {
-        "text": "izslēdz drošinātāju, ja tas bijis ieslēgts, un atvelk aizslēgu – pārliecinās, ka patrontelpā nav patrona, izņem magazīnu (atkarībā no konstrukcijas - atbīdot fiksācijas sviru vai nospiežot tā fiksācijas pogu) un atlaiž aizslēgu. Atvelk sprūda mēlītes aizsargskavu vai aizslēga fiksācijas sviru vai citādi atkarībā no konstrukcijas, lai noņemtu aizslēgu. Atvieno aizslēgu no rāmja un veic turpmākās darbības atkarībā no pistoles konstrukcijas 109",
+        "text": "izslēdz drošinātāju, ja tas bijis ieslēgts, un atvelk aizslēgu – pārliecinās, ka patrontelpā nav patrona, izņem magazīnu (atkarībā no konstrukcijas - atbīdot fiksācijas sviru vai nospiežot tā fiksācijas pogu) un atlaiž aizslēgu. Atvelk sprūda mēlītes aizsargskavu vai aizslēga fiksācijas sviru vai citādi atkarībā no konstrukcijas, lai noņemtu aizslēgu. Atvieno aizslēgu no rāmja un veic turpmākās darbības atkarībā no pistoles konstrukcijas",
         "correct": false
       },
       "b": {
@@ -11728,7 +11732,7 @@
         "correct": true
       },
       "c": {
-        "text": "ievēro, ka visu darbību laikā šaujamieroci tur tā, lai stobrs netiktu vērsts pret cilvēkiem, pirksts nedrīkst atrasties uz sprūda mēlītes. Turot ieroci, pavēršot stobru nosacīti drošā virzienā, izņem (atvieno) no ieroča magazīnu un ieslēdz drošinātāju. Ja nepieciešams, izlādē no magazīnas patronas 110",
+        "text": "ievēro, ka visu darbību laikā šaujamieroci tur tā, lai stobrs netiktu vērsts pret cilvēkiem, pirksts nedrīkst atrasties uz sprūda mēlītes. Turot ieroci, pavēršot stobru nosacīti drošā virzienā, izņem (atvieno) no ieroča magazīnu un ieslēdz drošinātāju. Ja nepieciešams, izlādē no magazīnas patronas",
         "correct": false
       }
     }
@@ -11827,7 +11831,7 @@
         "correct": true
       },
       "d": {
-        "text": "izņem no pistoles magazīnu un to izlādē. Nospiež sprūda mēlīti, lai nolaižamā belzējierīce nav uzviltā stāvoklī. Ieslēdz drošinātāju (ja tāds ir), turot ieroci pavērstu drošā virzienā. Valsts policijas priekšnieka p.i. Galvenās kārtības policijas pārvaldes priekšnieks Andris Zellis ŠIS DOKUMENTS IR PARAKSTĪTS AR DROŠU ELEKTRONISKO PARAKSTU UN SATUR LAIKA ZĪMOGU Andris Sudārs, 67208377 Andris.Sudars@vp.gov.lv",
+        "text": "izņem no pistoles magazīnu un to izlādē. Nospiež sprūda mēlīti, lai nolaižamā belzējierīce nav uzviltā stāvoklī. Ieslēdz drošinātāju (ja tāds ir), turot ieroci pavērstu drošā virzienā.",
         "correct": false
       }
     }

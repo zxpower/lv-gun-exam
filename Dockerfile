@@ -6,6 +6,7 @@ COPY web/package.json web/package-lock.json ./
 RUN npm ci
 
 COPY web/ ./
+COPY questions.json ./public/
 RUN npm run build
 
 # Production stage with Nginx
