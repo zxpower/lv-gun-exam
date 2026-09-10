@@ -11422,7 +11422,7 @@
         "correct": false
       },
       "d": {
-        "text": "visi varianti 107",
+        "text": "visi varianti",
         "correct": true
       }
     }
@@ -11568,7 +11568,7 @@
   {
     "id": 503,
     "section": "X. Drošības prasības rīkojoties ar ieroci",
-    "question": "Šaujamieroča pielādēšanu veic 108",
+    "question": "Šaujamieroča pielādēšanu veic",
     "options": {
       "a": {
         "text": "ievietojot patronas magazīnā",
@@ -11659,7 +11659,7 @@
     "question": "Drošības prasības, veicot šaujamieroča (pistoles) nepilno izjaukšanu",
     "options": {
       "a": {
-        "text": "izslēdz drošinātāju, ja tas bijis ieslēgts, un atvelk aizslēgu – pārliecinās, ka patrontelpā nav patrona, izņem magazīnu (atkarībā no konstrukcijas - atbīdot fiksācijas sviru vai nospiežot tā fiksācijas pogu) un atlaiž aizslēgu. Atvelk sprūda mēlītes aizsargskavu vai aizslēga fiksācijas sviru vai citādi atkarībā no konstrukcijas, lai noņemtu aizslēgu. Atvieno aizslēgu no rāmja un veic turpmākās darbības atkarībā no pistoles konstrukcijas 109",
+        "text": "izslēdz drošinātāju, ja tas bijis ieslēgts, un atvelk aizslēgu – pārliecinās, ka patrontelpā nav patrona, izņem magazīnu (atkarībā no konstrukcijas - atbīdot fiksācijas sviru vai nospiežot tā fiksācijas pogu) un atlaiž aizslēgu. Atvelk sprūda mēlītes aizsargskavu vai aizslēga fiksācijas sviru vai citādi atkarībā no konstrukcijas, lai noņemtu aizslēgu. Atvieno aizslēgu no rāmja un veic turpmākās darbības atkarībā no pistoles konstrukcijas",
         "correct": false
       },
       "b": {
@@ -11728,7 +11728,7 @@
         "correct": true
       },
       "c": {
-        "text": "ievēro, ka visu darbību laikā šaujamieroci tur tā, lai stobrs netiktu vērsts pret cilvēkiem, pirksts nedrīkst atrasties uz sprūda mēlītes. Turot ieroci, pavēršot stobru nosacīti drošā virzienā, izņem (atvieno) no ieroča magazīnu un ieslēdz drošinātāju. Ja nepieciešams, izlādē no magazīnas patronas 110",
+        "text": "ievēro, ka visu darbību laikā šaujamieroci tur tā, lai stobrs netiktu vērsts pret cilvēkiem, pirksts nedrīkst atrasties uz sprūda mēlītes. Turot ieroci, pavēršot stobru nosacīti drošā virzienā, izņem (atvieno) no ieroča magazīnu un ieslēdz drošinātāju. Ja nepieciešams, izlādē no magazīnas patronas",
         "correct": false
       }
     }
@@ -11827,7 +11827,7 @@
         "correct": true
       },
       "d": {
-        "text": "izņem no pistoles magazīnu un to izlādē. Nospiež sprūda mēlīti, lai nolaižamā belzējierīce nav uzviltā stāvoklī. Ieslēdz drošinātāju (ja tāds ir), turot ieroci pavērstu drošā virzienā. Valsts policijas priekšnieka p.i. Galvenās kārtības policijas pārvaldes priekšnieks Andris Zellis ŠIS DOKUMENTS IR PARAKSTĪTS AR DROŠU ELEKTRONISKO PARAKSTU UN SATUR LAIKA ZĪMOGU Andris Sudārs, 67208377 Andris.Sudars@vp.gov.lv",
+        "text": "izņem no pistoles magazīnu un to izlādē. Nospiež sprūda mēlīti, lai nolaižamā belzējierīce nav uzviltā stāvoklī. Ieslēdz drošinātāju (ja tāds ir), turot ieroci pavērstu drošā virzienā.",
         "correct": false
       }
     }
