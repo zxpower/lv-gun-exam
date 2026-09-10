@@ -2011,7 +2011,7 @@
     "question": "Ieroča nēsāšanas atļauju izsniedz",
     "options": {
       "a": {
-        "text": "visas atbildes ir pareizas",
+        "text": "pašaizsardzībai klasificētus B un C kategorijas garstobra-gludstobra šaujamieroču glabāšanai un nēsāšanai",
         "correct": false
       },
       "b": {
@@ -2020,6 +2020,10 @@
       },
       "c": {
         "text": "E kategorijas gāzes ieroču glabāšanai un nēsāšanai",
+        "correct": false
+      },
+      "d": {
+        "text": "visas atbildes ir pareizas",
         "correct": false
       }
     }
@@ -2119,7 +2123,7 @@
   {
     "id": 92,
     "section": "III. Ieroču atļaujas",
-    "question": "Ieroču kolekcijas atļauja dod tiesības 19",
+    "question": "Ieroču kolekcijas atļauja dod tiesības",
     "options": {
       "a": {
         "text": "glabāt atļaujā norādītos šaujamieročus, to būtiskās sastāvdaļas un lielas enerģijas pneimatiskos ieročus atļaujā norādītajā adresē, kā arī tos pārvadāt un eksponēt izstādēs",
