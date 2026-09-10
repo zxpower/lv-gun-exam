@@ -844,7 +844,7 @@ export default function App() {
         <p className="credit">
           MIT licenze · Izstrādājis
           <a href="https://estivador.io" target="_blank" rel="noopener" className="text-blue-400 hover:underline ml-1">Reinholds Zviedris</a>
-          · <a href="https://github.com/zxpower/gun-exam" target="_blank" rel="noopener" className="text-blue-400 hover:underline ml-1">Pirmkods</a>
+          · <a href="https://github.com/zxpower/lv-gun-exam" target="_blank" rel="noopener" className="text-blue-400 hover:underline ml-1">Pirmkods</a>
         </p>
       </footer>
     </div>
