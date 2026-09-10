@@ -28,6 +28,15 @@ docker compose up -d --build
 
 Open your browser at **`http://localhost:8080`**.
 
+## License
+
+MIT © [Reinholds Zviedris](https://estivador.io)
+
+> Disclaimer: provided as-is for informational/educational use, with no warranty.
+> Exam outputs are estimates — always confirm against official sources.
+
+Source: https://github.com/zxpower/gun-exam
+
 ## Local Development
 
 If you prefer running it locally for development:

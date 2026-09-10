@@ -837,8 +837,15 @@ export default function App() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-slate-900 text-slate-400 py-6 mt-12 border-t border-slate-800 text-xs text-center">
-        <p>Ieroču un munīcijas aprites kvalifikācijas pārbaudījuma jautājumi un atbildes 2026. Saskaņā ar Valsts policijas prasībām.</p>
+      <footer className="bg-slate-900 text-slate-400 py-6 mt-12 border-t border-slate-800 text-xs text-center space-y-2">
+        <p className="max-w-3xl mx-auto px-4 leading-relaxed">
+          <strong className="text-slate-300">Disclaimer:</strong> this tool is provided for informational and educational purposes only, with no warranty of any kind. Ballistic and exam outputs are estimates — always confirm against official State Police sources.
+        </p>
+        <p className="credit">
+          MIT Licensed · Made by
+          <a href="https://estivador.io" target="_blank" rel="noopener" className="text-blue-400 hover:underline ml-1">Reinholds Zviedris</a>
+          · <a href="https://github.com/zxpower/gun-exam" target="_blank" rel="noopener" className="text-blue-400 hover:underline ml-1">Source</a>
+        </p>
       </footer>
     </div>
   );
