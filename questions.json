@@ -5765,7 +5765,7 @@
   {
     "id": 250,
     "section": "V. Šaujamieroču, to maināmo būtisko sastāvdaļu un munīcijas un lielas enerģijas pneimatisko ieroču realizācija, iegādāšan realizācija, iegādāšanās, reģistrācija un pārvietošana",
-    "question": "Persona var pārvadāt uz citu Eiropas Savienības dalībvalsti medībām klasificētus B kategorijas medību šaujamieročus (arī to maināmās būtiskās sastāvdaļas un patronas) izmantošanai medībās (arī treniņšaušanā un šaušanas sacensībās), ja 54",
+    "question": "Persona var pārvadāt uz citu Eiropas Savienības dalībvalsti medībām klasificētus B kategorijas medību šaujamieročus (arī to maināmās būtiskās sastāvdaļas un patronas) izmantošanai medībās (arī treniņšaušanā un šaušanas sacensībās), ja",
     "options": {
       "a": {
         "text": "ir saņemts Eiropas Savienības dalībvalsts kompetentās iestādes iepriekšējās piekrišanas dokuments B kategorijas medību šaujamieroču un munīcijas pārvadāšanai vai pārsūtīšanai un ir saņemta Valsts policijas atļauja B kategorijas medību šaujamieroču pārvadāšanai vai pārsūtīšanai",
@@ -5857,7 +5857,7 @@
   {
     "id": 254,
     "section": "V. Šaujamieroču, to maināmo būtisko sastāvdaļu un munīcijas un lielas enerģijas pneimatisko ieroču realizācija, iegādāšan realizācija, iegādāšanās, reģistrācija un pārvietošana",
-    "question": "Sporta un medību šaujamieroču īpašnieks var pārvadāt uz citu Eiropas Savienības dalībvalsti vai Eiropas Ekonomikas zonas valsti C kategorijas medību un sporta šaujamieročus (arī kopā ar to maināmām būtiskām sastāvdaļām un munīciju), ja 55",
+    "question": "Sporta un medību šaujamieroču īpašnieks var pārvadāt uz citu Eiropas Savienības dalībvalsti vai Eiropas Ekonomikas zonas valsti C kategorijas medību un sporta šaujamieročus (arī kopā ar to maināmām būtiskām sastāvdaļām un munīciju), ja",
     "options": {
       "a": {
         "text": "ir pamatojums (piemēram, ielūgums) ieroču ievešanai attiecīgajā galamērķa valstī atbilstoši to lietojuma veidam (izmantošanai medībās, treniņšaušanā vai šaušanas sacensībās)",
@@ -5964,7 +5964,7 @@
         "correct": false
       },
       "d": {
-        "text": "b un c variantā norādītie dokumenti 56",
+        "text": "b un c variantā norādītie dokumenti",
         "correct": true
       }
     }
@@ -6056,7 +6056,7 @@
         "correct": true
       },
       "d": {
-        "text": "Valsts policijā saņemt Eiropas šaujamieroču apliecību 57",
+        "text": "Valsts policijā saņemt Eiropas šaujamieroču apliecību",
         "correct": false
       }
     }
@@ -6171,7 +6171,7 @@
         "correct": false
       },
       "d": {
-        "text": "lai nepieļautu situāciju, kad nepieciešams ieroci pielietot 58",
+        "text": "lai nepieļautu situāciju, kad nepieciešams ieroci pielietot",
         "correct": false
       }
     }
@@ -6271,7 +6271,7 @@
   {
     "id": 272,
     "section": "VI. Šaujamieroču izmantošanas un pielietošanas nosacījumi un kārtība",
-    "question": "Šaujamieroča pielietošana ir 59",
+    "question": "Šaujamieroča pielietošana ir",
     "options": {
       "a": {
         "text": "šaujamieroča izvilkšana no speciālās kabatas (maksts) un sagatavošana šaušanai",
@@ -6389,7 +6389,7 @@
     "question": "Šaujamieroča pielietošana ir",
     "options": {
       "a": {
-        "text": "tēmēts šāviens, kas vērsts (šāviens tiek raidīts) pret personu, kuras rīcība ir noziedzīga, vai bīstamu dzīvnieku situācijā, kas atbilst kādam no Ieroču aprites likuma noteiktajam šaujamieroča pielietošanas gadījumam - pielietošanas nosacījumam 60",
+        "text": "tēmēts šāviens, kas vērsts (šāviens tiek raidīts) pret personu, kuras rīcība ir noziedzīga, vai bīstamu dzīvnieku situācijā, kas atbilst kādam no Ieroču aprites likuma noteiktajam šaujamieroča pielietošanas gadījumam - pielietošanas nosacījumam",
         "correct": true
       },
       "b": {
@@ -6547,7 +6547,7 @@
   {
     "id": 284,
     "section": "VI. Šaujamieroču izmantošanas un pielietošanas nosacījumi un kārtība",
-    "question": "Persona drīkst pielietot šaujamieroci kā galējo līdzekli, lai 61",
+    "question": "Persona drīkst pielietot šaujamieroci kā galējo līdzekli, lai",
     "options": {
       "a": {
         "text": "aizturētu personu, kura pārsteigta likumpārkāpuma izdarīšanas brīdī un izrāda pretošanos",
@@ -6708,7 +6708,7 @@
   {
     "id": 291,
     "section": "VI. Šaujamieroču izmantošanas un pielietošanas nosacījumi un kārtība",
-    "question": "Persona drīkst pielietot šaujamieroci kā galējo līdzekli, lai 62",
+    "question": "Persona drīkst pielietot šaujamieroci kā galējo līdzekli, lai",
     "options": {
       "a": {
         "text": "aizsargātu sevi vai citas personas no uzbrukuma, kas reāli apdraud dzīvību vai veselību",
@@ -6846,7 +6846,7 @@
   {
     "id": 297,
     "section": "VI. Šaujamieroču izmantošanas un pielietošanas nosacījumi un kārtība",
-    "question": "Šaujamieroci drīkst izmantot, lai aizbaidītu dzīvnieku 63",
+    "question": "Šaujamieroci drīkst izmantot, lai aizbaidītu dzīvnieku",
     "options": {
       "a": {
         "text": "kas apdraud cilvēka dzīvību, veselību vai mantu",
@@ -6953,7 +6953,7 @@
         "correct": false
       },
       "d": {
-        "text": "tēmēts vai netēmēts šāviens, kas nepieciešams, lai garantētu savu vai citas personas drošību 64",
+        "text": "tēmēts vai netēmēts šāviens, kas nepieciešams, lai garantētu savu vai citas personas drošību",
         "correct": false
       }
     }
@@ -7056,7 +7056,7 @@
     "question": "Persona drīkst pielietot šaujamieroci Ieroču aprites likumā noteiktos gadījumos (pastāvot šaujamieroča pielietošanas nosacījumiem)",
     "options": {
       "a": {
-        "text": "tikai kā galējo līdzekli 65",
+        "text": "tikai kā galējo līdzekli",
         "correct": false
       },
       "b": {
@@ -7156,7 +7156,7 @@
         "correct": false
       },
       "c": {
-        "text": "jebkāds citas personas prettiesisks uzbrukums 66",
+        "text": "jebkāds citas personas prettiesisks uzbrukums",
         "correct": false
       },
       "d": {
@@ -7325,7 +7325,7 @@
   {
     "id": 318,
     "section": "VI. Šaujamieroču izmantošanas un pielietošanas nosacījumi un kārtība",
-    "question": "Persona drīkst pielietot šaujamieroci kā galējo līdzekli, lai novērstu nelikumīgu mēģinājumu vardarbīgi atņemt šaujamieroci. Šaujamieroča pielietošanas nosacījuma obligātās pazīmes ir šādas 68",
+    "question": "Persona drīkst pielietot šaujamieroci kā galējo līdzekli, lai novērstu nelikumīgu mēģinājumu vardarbīgi atņemt šaujamieroci. Šaujamieroča pielietošanas nosacījuma obligātās pazīmes ir šādas",
     "options": {
       "a": {
         "text": "mēģinājums atņemts šaujamieroci ir nelikumīgs un izpaužas kā uzbrucēja aktīva rīcība – vardarbība pret ieroča īpašnieku vai arī rīcība, kas tieši neapdraud ieroča īpašnieku, piemēram, mēģinājums nozagt šaujamieroci",
@@ -7409,7 +7409,7 @@
         "correct": false
       },
       "d": {
-        "text": "visas norādītās pazīmes 69",
+        "text": "visas norādītās pazīmes",
         "correct": true
       }
     }
@@ -7601,7 +7601,7 @@
   {
     "id": 330,
     "section": "VI. Šaujamieroču izmantošanas un pielietošanas nosacījumi un kārtība",
-    "question": "Izmantojot un pielietojot šaujamieroci, ir nepieciešams 71",
+    "question": "Izmantojot un pielietojot šaujamieroci, ir nepieciešams",
     "options": {
       "a": {
         "text": "darīt visu iespējamo, lai mazinātu kaitējumu un garantētu citu personu drošību",
@@ -7719,7 +7719,7 @@
     "question": "Pirms šaujamieroča pielietošanas brīdina par nodomu to pielietot vai izdara brīdinājuma šāvienu. Jāņem vērā, ka",
     "options": {
       "a": {
-        "text": "brīdināšanai par šaujamieroča pielietošanu ir jābūt nepārprotamai un skaidri saprotamai adresātam (personai, pret kuru paredzēts pielietot ieroci). Ar brīdināšanu par šaujamieroča pielietošanu saprot mutiski izteiktu brīdinājumu 72",
+        "text": "brīdināšanai par šaujamieroča pielietošanu ir jābūt nepārprotamai un skaidri saprotamai adresātam (personai, pret kuru paredzēts pielietot ieroci). Ar brīdināšanu par šaujamieroča pielietošanu saprot mutiski izteiktu brīdinājumu",
         "correct": false
       },
       "b": {
@@ -7808,7 +7808,7 @@
   {
     "id": 339,
     "section": "VI. Šaujamieroču izmantošanas un pielietošanas nosacījumi un kārtība",
-    "question": "Pirms šaujamieroča pielietošanas brīdina par nodomu to pielietot vai izdara brīdinājuma šāvienu. Jāņem vērā, ka 73",
+    "question": "Pirms šaujamieroča pielietošanas brīdina par nodomu to pielietot vai izdara brīdinājuma šāvienu. Jāņem vērā, ka",
     "options": {
       "a": {
         "text": "pielietojot šaujamieroci pašaizsardzībai, brīdināšanas veidu (mutisku brīdināšanu vai brīdinājuma šāviena izdarīšanu) nevar izvēlēties, vispirms ir jāizdara mutisks brīdinājums",
@@ -7903,7 +7903,7 @@
     "question": "Prasība brīdināt personu pirms šaujamieroča pielietošanas uzskatāma par vispārējo kārtību, tomēr ir paredzēti izņēmumi",
     "options": {
       "a": {
-        "text": "Ieroču aprites likumā nav noteikti izņēmuma gadījumi, kad šaujamieroci atļauts pielietot bez brīdināšanas par nodomu to pielietot 74",
+        "text": "Ieroču aprites likumā nav noteikti izņēmuma gadījumi, kad šaujamieroci atļauts pielietot bez brīdināšanas par nodomu to pielietot",
         "correct": false
       },
       "b": {
@@ -8015,7 +8015,7 @@
   {
     "id": 348,
     "section": "VI. Šaujamieroču izmantošanas un pielietošanas nosacījumi un kārtība",
-    "question": "Bez brīdinājuma šaujamieroci pielieto 75",
+    "question": "Bez brīdinājuma šaujamieroci pielieto",
     "options": {
       "a": {
         "text": "ja uzbrukums reāli apdraud cilvēka dzīvību vai veselību",
@@ -8260,7 +8260,7 @@
         "correct": false
       },
       "d": {
-        "text": "nekavējoties ziņo Valsts policijai tikai, ja ir cietušie 77",
+        "text": "nekavējoties ziņo Valsts policijai tikai, ja ir cietušie",
         "correct": false
       }
     }
