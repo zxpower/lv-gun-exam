@@ -35,7 +35,7 @@ export default function App() {
   const [examIndex, setExamIndex] = useState(0);
   const [examAnswers, setExamAnswers] = useState({});
   const [examSubmitted, setExamSubmitted] = useState(false);
-  const [examTimeLeft, setExamTimeLeft] = useState(30 * 60); // 30 minutes in seconds
+  const [examTimeLeft, setExamTimeLeft] = useState(40 * 60); // 40 minutes in seconds
 
   // Bookmarks & progress
   const [bookmarks, setBookmarks] = useState(() => {
@@ -133,16 +133,16 @@ export default function App() {
     });
   };
 
-  // Start official exam simulation (20 random questions from the pool, 30 mins)
+  // Start official exam simulation (40 random questions from the pool, 40 mins)
   const startExam = () => {
-    // Shuffle and pick 20
+    // Shuffle and pick 40
     const shuffled = [...questions].sort(() => 0.5 - Math.random());
-    const selected = shuffled.slice(0, 20);
+    const selected = shuffled.slice(0, 40);
     setExamQuestions(selected);
     setExamIndex(0);
     setExamAnswers({});
     setExamSubmitted(false);
-    setExamTimeLeft(30 * 60);
+    setExamTimeLeft(40 * 60);
     setExamActive(true);
     setActiveTab('exam');
   };
@@ -158,7 +158,7 @@ export default function App() {
       if (isCorrect) correctCount++;
     });
 
-    const passed = correctCount >= 18; // 18/20 required to pass (90%)
+    const passed = correctCount >= 36; // 36/40 required to pass (90%)
     setStats(prev => ({
       ...prev,
       completedExams: prev.completedExams + 1,
@@ -211,7 +211,7 @@ export default function App() {
               onClick={startExam}
               className={`px-3.5 py-2 rounded-lg text-sm font-medium transition flex items-center gap-1.5 ${activeTab === 'exam' ? 'bg-emerald-600 text-white shadow' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'}`}
             >
-              <Play className="w-4 h-4 fill-current" /> Eksamena Tests (20 jaut.)
+              <Play className="w-4 h-4 fill-current" /> Eksamena Tests (40 jaut.)
             </button>
             <button 
               onClick={() => setActiveTab('bookmarks')}
@@ -552,7 +552,7 @@ export default function App() {
                 <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 bg-slate-50 p-4 rounded-xl border border-slate-200">
                   <div>
                     <h3 className="font-bold text-slate-900">Eksāmena Simulācija</h3>
-                    <p className="text-xs text-slate-500">20 jautājumi • Lai nokārtotu, jāatbild vismaz uz 18 pareizi (90%)</p>
+                    <p className="text-xs text-slate-500">40 jautājumi • Lai nokārtotu, jāatbild vismaz uz 36 pareizi (90%)</p>
                   </div>
                   <div className="flex items-center gap-4">
                     <div className={`px-4 py-2 rounded-xl font-mono font-bold text-sm ${examTimeLeft < 300 ? 'bg-rose-100 text-rose-700 animate-pulse' : 'bg-blue-100 text-blue-700'}`}>
@@ -685,7 +685,7 @@ export default function App() {
                           {passed ? 'Apsveicam! Eksāmens nokārtots!' : 'Eksāmens nav nokārtots'}
                         </h2>
                         <p className="text-sm text-slate-600">
-                          {passed ? 'Jūs esat veiksmīgi pierādījis zināšanas un prasības.' : 'Nepieciešams vismaz 18 pareizas atbildes (90%). Mēģiniet vēlreiz!'}
+                          {passed ? 'Jūs esat veiksmīgi pierādījis zināšanas un prasības.' : 'Nepieciešams vismaz 36 pareizas atbildes (90%). Mēģiniet vēlreiz!'}
                         </p>
                       </div>
 
