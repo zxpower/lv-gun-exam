@@ -1,6 +1,6 @@
-# Gun Exam Preparation App (Ieroču Eksamens 2026)
+# Web App to Prepare for Gun Exam (Ieroču eksāmens)
 
-A web application designed to help users prepare for the official **Latvian State Police Qualification Exam for Firearms and Ammunition Handling (Ieroču un munīcijas aprites kvalifikācijas pārbaudījums)**.
+A web application designed to help users prepare for the official **Latvian State Police Qualification Exam for Firearms and Ammunition Handling ([Ieroču un munīcijas aprites kvalifikācijas pārbaudījums](https://www.vp.gov.lv/lv/informacija-par-ierocu-un-municijas-aprites-un-prasmju-rikoties-ar-ieroci-kvalifikacijas-parbaudijumu))**.
 
 Based on the official 2026 examination questions and correct answers parsed from `@docs/Ierocu_eksamena_jautajumi_un_atbildes_2026.pdf`.
 
@@ -28,15 +28,6 @@ docker compose up -d --build
 
 Open your browser at **`http://localhost:8080`**.
 
-## License
-
-MIT © [Reinholds Zviedris](https://estivador.io)
-
-> Disclaimer: provided as-is for informational/educational use, with no warranty.
-> Exam outputs are estimates — always confirm against official sources.
-
-Source: https://github.com/zxpower/gun-exam
-
 ## Local Development
 
 If you prefer running it locally for development:
@@ -46,3 +37,13 @@ cd web
 npm install
 npm run dev
 ```
+
+## License
+
+MIT ©2026 [Reinholds Zviedris](https://estivador.io)
+
+> Disclaimer: provided as-is for informational/educational use, with no warranty.
+> Exam outputs are estimates — always confirm against official sources.
+
+Source: https://github.com/zxpower/lv-gun-exam
+
