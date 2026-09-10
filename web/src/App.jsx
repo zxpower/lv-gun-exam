@@ -317,8 +317,7 @@ export default function App() {
                       key={idx}
                       onClick={() => {
                         setStudySection(sec);
-                        const firstIdx = questions.findIndex(q => q.section === sec);
-                        setStudyIndex(firstIdx !== -1 ? firstIdx : 0);
+                        setStudyIndex(0);
                         setActiveTab('study');
                         setStudyShowResult(false);
                         setStudySelectedAnswers({});
