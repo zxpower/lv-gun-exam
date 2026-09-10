@@ -8785,7 +8785,7 @@
         "correct": false
       },
       "d": {
-        "text": "visi varianti un atbildību izslēdzošie apstākļi 82",
+        "text": "visi varianti un atbildību izslēdzošie apstākļi",
         "correct": false
       }
     }
@@ -8885,7 +8885,7 @@
   {
     "id": 386,
     "section": "VIII. Atbildība par ieroču un munīcijas aprites noteikumu pārkāpšanu",
-    "question": "Kriminālatbildība iestājas 83",
+    "question": "Kriminālatbildība iestājas",
     "options": {
       "a": {
         "text": "par šaujamieroča, šaujamieroča būtisko sastāvdaļu, šaujamieroča munīcijas vai lielas enerģijas pneimatiskā ieroča iegādāšanās, glabāšanas, pārvadāšanas, nēsāšanas, realizēšanas vai citu aprites noteikumu pārkāpšanu, ja to izdarījusi persona, kurai ir attiecīga ieroču atļauja",
@@ -8969,7 +8969,7 @@
         "correct": false
       },
       "d": {
-        "text": "visi varianti 84",
+        "text": "visi varianti",
         "correct": false
       }
     }
@@ -9130,7 +9130,7 @@
         "correct": true
       },
       "d": {
-        "text": "a un b variants 86",
+        "text": "a un b variants",
         "correct": false
       }
     }
@@ -9210,7 +9210,7 @@
     "question": "Kriminālatbildība iestājas par",
     "options": {
       "a": {
-        "text": "šaujamieroča vai lielas enerģijas pneimatiskā ieroča pielietošanas vai izmantošanas nosacījumu vai kārtības pārkāpšanu, ja to izdarījusi persona, kurai atļauts iegādāties, glabāt vai nēsāt šaujamieroci vai lielas enerģijas pneimatisko ieroci, un ja ar to radīts būtisks kaitējums 87",
+        "text": "šaujamieroča vai lielas enerģijas pneimatiskā ieroča pielietošanas vai izmantošanas nosacījumu vai kārtības pārkāpšanu, ja to izdarījusi persona, kurai atļauts iegādāties, glabāt vai nēsāt šaujamieroci vai lielas enerģijas pneimatisko ieroci, un ja ar to radīts būtisks kaitējums",
         "correct": false
       },
       "b": {
@@ -9287,7 +9287,7 @@
         "correct": false
       },
       "c": {
-        "text": "atteikšanos no medicīniskās pārbaudes alkohola koncentrācijas noteikšanai vai narkotisko, psihotropo, toksisko vai citu apreibinošo vielu ietekmes pārbaudes 88",
+        "text": "atteikšanos no medicīniskās pārbaudes alkohola koncentrācijas noteikšanai vai narkotisko, psihotropo, toksisko vai citu apreibinošo vielu ietekmes pārbaudes",
         "correct": false
       },
       "d": {
@@ -9368,7 +9368,7 @@
   {
     "id": 407,
     "section": "VIII. Atbildība par ieroču un munīcijas aprites noteikumu pārkāpšanu",
-    "question": "Par atteikšanos no medicīniskās pārbaudes alkohola koncentrācijas noteikšanai vai narkotisko, psihotropo, toksisko vai citu apreibinošo vielu ietekmes pārbaudes 89",
+    "question": "Par atteikšanos no medicīniskās pārbaudes alkohola koncentrācijas noteikšanai vai narkotisko, psihotropo, toksisko vai citu apreibinošo vielu ietekmes pārbaudes",
     "options": {
       "a": {
         "text": "piemēro naudas sodu no 200 līdz 400 naudas soda vienībām",
@@ -9440,7 +9440,7 @@
         "correct": true
       },
       "b": {
-        "text": "nekādā gadījumā šādu personu nevar atbrīvot no kriminālatbildības, jo par šaujamieroča, tā būtiskās sastāvdaļas un munīcijas vai lielas enerģijas pneimatiskā ieroča izgatavošanu, iegādāšanos vai glabāšanu bez attiecīgas ieroča atļaujas ir paredzēta kriminālatbildība 90",
+        "text": "nekādā gadījumā šādu personu nevar atbrīvot no kriminālatbildības, jo par šaujamieroča, tā būtiskās sastāvdaļas un munīcijas vai lielas enerģijas pneimatiskā ieroča izgatavošanu, iegādāšanos vai glabāšanu bez attiecīgas ieroča atļaujas ir paredzēta kriminālatbildība",
         "correct": false
       },
       "c": {
@@ -9524,7 +9524,7 @@
     "question": "Apstākļa, kas izslēdz kriminālatbildību, - nepieciešamās aizstāvēšanās nosacījumi un tiesiskais regulējums ir šāds",
     "options": {
       "a": {
-        "text": "personai ir tiesības uz nepieciešamo aizstāvēšanos neatkarīgi no iespējām izvairīties no uzbrukuma vai griezties pēc palīdzības pie citām personām 91",
+        "text": "personai ir tiesības uz nepieciešamo aizstāvēšanos neatkarīgi no iespējām izvairīties no uzbrukuma vai griezties pēc palīdzības pie citām personām",
         "correct": false
       },
       "b": {
@@ -9609,7 +9609,7 @@
   {
     "id": 418,
     "section": "VIII. Atbildība par ieroču un munīcijas aprites noteikumu pārkāpšanu",
-    "question": "Galējās nepieciešamības, kā kriminālatbildību izslēdzošā apstākļa situācijā, kaitējums tiek nodarīts 92",
+    "question": "Galējās nepieciešamības, kā kriminālatbildību izslēdzošā apstākļa situācijā, kaitējums tiek nodarīts",
     "options": {
       "a": {
         "text": "uzbrucējam",
@@ -9797,7 +9797,7 @@
   {
     "id": 426,
     "section": "IX. Šaujamieroča un lielas enerģijas pneimatiskā ieroča uzbūve, darbības principi, darbības traucējumi un to novēršanas veidi",
-    "question": "Šaujamieroča darbības princips ir šāds 94",
+    "question": "Šaujamieroča darbības princips ir šāds",
     "options": {
       "a": {
         "text": "šāviņa izgrūšana no stobra kanāla notiek sadegot šaujampulverim, kad šāviņš saņem kinētisko enerģiju virzes kustībai gāzu spiediena rezultātā",
@@ -10007,7 +10007,7 @@
     "question": "Lielas enerģijas pneimatiskais ierocis ir",
     "options": {
       "a": {
-        "text": "pneimatiskais ierocis, kura šāviņa sākumenerģija nepārsniedz 12 džoulus 96",
+        "text": "pneimatiskais ierocis, kura šāviņa sākumenerģija nepārsniedz 12 džoulus",
         "correct": false
       },
       "b": {
@@ -10122,7 +10122,7 @@
     "question": "Automātiskā, atkārtotas darbības un viena šāviena šaujamieroča darbības princips ir šāds",
     "options": {
       "a": {
-        "text": "automātiskais šaujamierocis nodrošina šāvienu izdarīšanu līdz netiek atlaista belzējierīces palaišanas svira (sprūda mēlīte) - tas pēc katra šāviena pats uzlādējas jaunam šāvienam un, ja vienreiz tiek iedarbināts tā palaišanas mehānisms, spēj izdarīt vairākus šāvienus 97",
+        "text": "automātiskais šaujamierocis nodrošina šāvienu izdarīšanu līdz netiek atlaista belzējierīces palaišanas svira (sprūda mēlīte) - tas pēc katra šāviena pats uzlādējas jaunam šāvienam un, ja vienreiz tiek iedarbināts tā palaišanas mehānisms, spēj izdarīt vairākus šāvis",
         "correct": false
       },
       "b": {
@@ -10237,7 +10237,7 @@
     "question": "Gludstobra šaujamierocis ir",
     "options": {
       "a": {
-        "text": "ierocis, no kura šāviņu izšauj pa gludu stobra kanālu ar saspiestas gāzes palīdzību 98",
+        "text": "ierocis, no kura šāviņu izšauj pa gludu stobra kanālu ar saspiestas gāzes palīdzību",
         "correct": false
       },
       "b": {
@@ -10475,7 +10475,7 @@
         "correct": false
       },
       "c": {
-        "text": "magazīna, kas pārsniedz 20 patronu ietilpību 100",
+        "text": "magazīna, kas pārsniedz 20 patronu ietilpību",
         "correct": false
       },
       "d": {
@@ -10732,7 +10732,7 @@
         "correct": false
       },
       "d": {
-        "text": "visi varianti 102",
+        "text": "visi varianti",
         "correct": true
       }
     }
@@ -10870,7 +10870,7 @@
         "correct": true
       },
       "c": {
-        "text": "patronu ievadīšanai no magazīnas patrontelpā 103",
+        "text": "patronu ievadīšanai no magazīnas patrontelpā",
         "correct": false
       },
       "d": {
@@ -11020,7 +11020,7 @@
   {
     "id": 479,
     "section": "IX. Šaujamieroča un lielas enerģijas pneimatiskā ieroča uzbūve, darbības principi, darbības traucējumi un to novēršanas veidi",
-    "question": "Šaujamieroča sastāvdaļa – stobrs 104",
+    "question": "Šaujamieroča sastāvdaļa – stobrs",
     "options": {
       "a": {
         "text": "paredzēts tēmēšanai",
