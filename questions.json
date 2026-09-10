@@ -11276,7 +11276,7 @@
         "correct": false
       },
       "b": {
-        "text": "tikai drošā virzienā (īpaši tā, lai stobrs netiktu vērsts pret citiem cilvēkiem un sevi) 106",
+        "text": "tikai drošā virzienā (īpaši tā, lai stobrs netiktu vērsts pret citiem cilvēkiem un sevi)",
         "correct": true
       },
       "c": {
@@ -11292,7 +11292,7 @@
   {
     "id": 491,
     "section": "X. Drošības prasības rīkojoties ar ieroci",
-    "question": "Šaujamierocis ir jātur rokās tādā vaidā, lai",
+    "question": "Šaujamierocis ir jātur rokās tādā veidā, lai",
     "options": {
       "a": {
         "text": "stobrs netiktu vērsts pret cilvēkiem",
