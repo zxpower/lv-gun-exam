@@ -2203,7 +2203,7 @@
         "correct": false
       },
       "d": {
-        "text": "visas atbildes ir pareizas 20",
+        "text": "visas atbildes ir pareizas",
         "correct": true
       }
     }
@@ -2303,7 +2303,7 @@
   {
     "id": 100,
     "section": "III. Ieroču atļaujas",
-    "question": "Ieroča iegādāšanās atļauju un ieroča glabāšanas, nēsāšanas vai kolekcijas atļauju aizliegts izsniegt fiziskajai personai 21",
+    "question": "Ieroča iegādāšanās atļauju un ieroča glabāšanas, nēsāšanas vai kolekcijas atļauju aizliegts izsniegt fiziskajai personai",
     "options": {
       "a": {
         "text": "kurai par pārkāpumiem ieroču un munīcijas aprites jomā ierobežotas (atņemtas uz laiku) ieroču iegādāšanās, glabāšanas vai nēsāšanas tiesības vai tiesības nodarboties ar komercdarbību ieroču aprites jomā, — pirms tiesību ierobežojuma termiņa beigām",
@@ -2425,7 +2425,7 @@
         "correct": true
       },
       "b": {
-        "text": "ieroča īpašnieks izvairās vai citādi traucē Valsts policijas amatpersonai pārbaudīt šaujamieroču, munīcijas un to sastāvdaļu vai lielas enerģijas pneimatisko ieroču glabāšanas apstākļus ieroču atļaujā norādītajā adresē 22",
+        "text": "ieroča īpašnieks izvairās vai citādi traucē Valsts policijas amatpersonai pārbaudīt šaujamieroču, munīcijas un to sastāvdaļu vai lielas enerģijas pneimatisko ieroču glabāšanas apstākļus ieroču atļaujā norādītajā adresē",
         "correct": false
       },
       "c": {
@@ -2536,7 +2536,7 @@
     "question": "Ja personai tiek anulēta ieroča glabāšanas vai nēsāšanas atļauja",
     "options": {
       "a": {
-        "text": "ieroci, munīciju, šaujampulveri un šaujamieroča maināmās būtiskās sastāvdaļas piecu darbdienu laikā pēc attiecīgā paziņojuma saņemšanas ir jānodod realizācijai ieroču komersantam 23",
+        "text": "ieroci, munīciju, šaujampulveri un šaujamieroča maināmās būtiskās sastāvdaļas piecu darbdienu laikā pēc attiecīgā paziņojuma saņemšanas ir jānodod realizācijai ieroču komersantam",
         "correct": false
       },
       "b": {
