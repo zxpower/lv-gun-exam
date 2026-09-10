@@ -381,7 +381,7 @@
         "correct": false
       },
       "b": {
-        "text": "dezaktivētu šaujamieroču un lielas enerģijas pneimatisko ieroču aprite bez Valsts policijas izziņas vai apliecinājuma 4",
+        "text": "dezaktivētu šaujamieroču un lielas enerģijas pneimatisko ieroču aprite bez Valsts policijas izziņas vai apliecinājuma",
         "correct": true
       },
       "c": {
@@ -504,7 +504,7 @@
         "correct": false
       },
       "c": {
-        "text": "nēsāt atklātā veidā ieročus un to munīciju, dezaktivētus ieročus un speciālos līdzekļus 5",
+        "text": "nēsāt atklātā veidā ieročus un to munīciju, dezaktivētus ieročus un speciālos līdzekļus",
         "correct": false
       },
       "d": {
@@ -719,7 +719,7 @@
         "correct": false
       },
       "d": {
-        "text": "b un c variants 7",
+        "text": "b un c variants",
         "correct": true
       }
     }
@@ -826,7 +826,7 @@
         "correct": false
       },
       "b": {
-        "text": "traumatiskajiem ieročiem, elektrošoka ierīcēm un aukstajiem ieročiem, tostarp sporta un medību lokiem un arbaletiem, kā arī straikbola ieročiem, peintbola ieročiem un lāzertaga ierīcēm 8",
+        "text": "traumatiskajiem ieročiem, elektrošoka ierīcēm un aukstajiem ieročiem, tostarp sporta un medību lokiem un arbaletiem, kā arī straikbola ieročiem, peintbola ieročiem un lāzertaga ierīcēm",
         "correct": false
       },
       "c": {
@@ -945,7 +945,7 @@
         "correct": false
       },
       "c": {
-        "text": "tikai medību un sporta lietojumam klasificētu šaujamieroču glabāšanai un izmantošanai atbilstoši ieroču atļaujā norādītajam ieroča lietojuma veidam 9",
+        "text": "tikai medību un sporta lietojumam klasificētu šaujamieroču glabāšanai un izmantošanai atbilstoši ieroču atļaujā norādītajam ieroča lietojuma veidam",
         "correct": false
       }
     }
@@ -1048,7 +1048,7 @@
     "question": "Fiziskajai personai, kura sasniegusi 16 gadu vecumu, ir tiesības",
     "options": {
       "a": {
-        "text": "iegādāties, glabāt un nēsāt pašaizsardzībai E kategorijas gāzes ieročus un signālieročus 10",
+        "text": "iegādāties, glabāt un nēsāt pašaizsardzībai E kategorijas gāzes ieročus un signālieročus",
         "correct": false
       },
       "b": {
@@ -1275,7 +1275,7 @@
         "correct": false
       },
       "c": {
-        "text": "pašaizsardzībai klasificētā B un C kategorijas garstobra—gludstobra šaujamieroča maināmās būtiskās sastāvdaļas 12",
+        "text": "pašaizsardzībai klasificētā B un C kategorijas garstobra—gludstobra šaujamieroča maināmās būtiskās sastāvdaļas",
         "correct": false
       },
       "d": {
@@ -1379,7 +1379,7 @@
   {
     "id": 60,
     "section": "III. Ieroču atļaujas",
-    "question": "Fiziskā personai, kura sasniegusi 21 gadu vecumu, ar Valsts policijas atļauju drīkst iegādāties šādus pašaizsardzības lietojuma ieročus un munīciju 13",
+    "question": "Fiziskā personai, kura sasniegusi 21 gadu vecumu, ar Valsts policijas atļauju drīkst iegādāties šādus pašaizsardzības lietojuma ieročus un munīciju",
     "options": {
       "a": {
         "text": "B kategorijas pusautomātiskos, atkārtotas darbības un viena šāviena īsstobra šaujamieročus (pistoles un revolverus), kuru kalibrs nav lielāks par 11,43 milimetriem",
@@ -1524,7 +1524,7 @@
         "correct": false
       },
       "b": {
-        "text": "uz pieciem gadiem 14",
+        "text": "uz pieciem gadiem",
         "correct": true
       },
       "c": {
@@ -1643,7 +1643,7 @@
         "correct": false
       },
       "c": {
-        "text": "iegādāties tikai atļaujā norādīto ieroci bez tā munīcijas un bez šaujamieroča maināmās būtiskās sastāvdaļas, iegādāties atļaujā norādīto lielas enerģijas pneimatisko ieroci, kā arī glabāt tos līdz reģistrācijai Valsts policijā, ja nav iegādāta šaujamieroča munīcija 15",
+        "text": "iegādāties tikai atļaujā norādīto ieroci bez tā munīcijas un bez šaujamieroča maināmās būtiskās sastāvdaļas, iegādāties atļaujā norādīto lielas enerģijas pneimatisko ieroci, kā arī glabāt tos līdz reģistrācijai Valsts policijā, ja nav iegādāta šaujamieroča munīcija",
         "correct": false
       },
       "d": {
@@ -1762,7 +1762,7 @@
         "correct": false
       },
       "c": {
-        "text": "savā nekustamajā īpašumā vai kopīpašumā (dzīvoklī, dzīvojamā mājā, saimniecības vai citā būvē) 16",
+        "text": "savā nekustamajā īpašumā vai kopīpašumā (dzīvoklī, dzīvojamā mājā, saimniecības vai citā būvē)",
         "correct": false
       },
       "d": {
@@ -1885,7 +1885,7 @@
         "correct": false
       },
       "d": {
-        "text": "a un c variants 17",
+        "text": "a un c variants",
         "correct": true
       }
     }
@@ -2008,7 +2008,7 @@
   {
     "id": 87,
     "section": "III. Ieroču atļaujas",
-    "question": "Ieroča nēsāšanas atļauju izsniedz 18",
+    "question": "Ieroča nēsāšanas atļauju izsniedz",
     "options": {
       "a": {
         "text": "visas atbildes ir pareizas",
