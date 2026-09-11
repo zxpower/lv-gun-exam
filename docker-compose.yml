@@ -4,4 +4,8 @@ services:
     container_name: gun-exam
     ports:
       - "8080:80"
+    environment:
+      - VITE_GA_MEASUREMENT_ID=${VITE_GA_MEASUREMENT_ID:-}
+    volumes:
+      - ./logs/nginx:/var/log/nginx
     restart: unless-stopped

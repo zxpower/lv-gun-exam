@@ -8,3 +8,4 @@ web/dist/
 parse_pdf.py
 fix_q313.py
 clean_sections.py
+logs/
