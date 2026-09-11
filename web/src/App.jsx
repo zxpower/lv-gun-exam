@@ -71,6 +71,9 @@ export default function App() {
   const [filterSection, setFilterSection] = useState('all');
   const [filterBookmarkOnly, setFilterBookmarkOnly] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [cookieConsent, setCookieConsent] = useState(() => {
+    return localStorage.getItem('gun_exam_cookie_consent');
+  });
 
   useEffect(() => {
     fetch('/questions.json')
@@ -904,6 +907,39 @@ export default function App() {
           · <a href="https://github.com/zxpower/lv-gun-exam" target="_blank" rel="noopener" className="text-blue-400 hover:underline ml-1">Pirmkods</a>
         </p>
       </footer>
+
+      {/* Cookie Banner */}
+      {cookieConsent === null && (
+        <div className="fixed bottom-0 left-0 right-0 z-50 bg-slate-900/95 backdrop-blur border-t border-slate-800 text-white p-4 shadow-2xl animate-slideUp">
+          <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-sm">
+            <p className="text-slate-300 text-center sm:text-left leading-relaxed">
+              Mēs izmantojam sīkdatnes (Google Analytics), lai uzlabotu lietotnes darbību un analizētu apmeklējumu statistiku.
+            </p>
+            <div className="flex items-center gap-3 flex-shrink-0">
+              <button
+                onClick={() => {
+                  localStorage.setItem('gun_exam_cookie_consent', 'declined');
+                  setCookieConsent('declined');
+                  // Disable GA if declined
+                  window['ga-disable-'] = true;
+                }}
+                className="px-4 py-2 rounded-xl border border-slate-700 hover:bg-slate-800 text-slate-300 transition text-xs font-semibold"
+              >
+                Atteikties
+              </button>
+              <button
+                onClick={() => {
+                  localStorage.setItem('gun_exam_cookie_consent', 'accepted');
+                  setCookieConsent('accepted');
+                }}
+                className="px-5 py-2 rounded-xl bg-blue-600 hover:bg-blue-500 text-white transition text-xs font-bold shadow"
+              >
+                Piekrītu
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
