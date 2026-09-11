@@ -1,9 +1,10 @@
 venv/
 node_modules/
+web/node_modules/
 dist/
+web/dist/
 .DS_Store
 *.pyc
 parse_pdf.py
 fix_q313.py
 clean_sections.py
-questions.json
