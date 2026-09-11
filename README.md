@@ -28,6 +28,17 @@ docker compose up -d --build
 
 Open your browser at **`http://localhost:8080`**.
 
+### Google Analytics & Nginx Logs
+
+You can configure Google Analytics and map Nginx logs using environment variables (e.g., via a `.env` file in the project root):
+
+```env
+VITE_GA_MEASUREMENT_ID=G-XXXXXXXXXX
+```
+
+Nginx access and error logs are automatically mapped to `./logs/nginx` on the host machine.
+
+
 ## Local Development
 
 If you prefer running it locally for development:
