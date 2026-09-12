@@ -752,26 +752,30 @@ export default function App() {
               </div>
             ) : (
               /* Exam Results View */
-              <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-8 text-center space-y-6">
+              <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-8 space-y-6">
                 {(() => {
                   let correctCount = 0;
+                  const incorrectQuestions = [];
                   examQuestions.forEach(q => {
                     const userAns = examAnswers[q.id] || [];
                     const correctAns = Object.keys(q.options).filter(k => q.options[k].correct);
-                    if (userAns.length === correctAns.length && userAns.every(a => correctAns.includes(a))) {
+                    const isCorrect = userAns.length === correctAns.length && userAns.every(a => correctAns.includes(a));
+                    if (isCorrect) {
                       correctCount++;
+                    } else {
+                      incorrectQuestions.push({ q, userAns, correctAns });
                     }
                   });
                   const passed = correctCount >= (examQuestions.length === 10 ? 9 : 36);
                   const percentage = Math.round((correctCount / examQuestions.length) * 100);
 
                   return (
-                    <div className="space-y-6 max-w-xl mx-auto">
+                    <div className="space-y-6 max-w-2xl mx-auto">
                       <div className={`w-20 h-20 rounded-full flex items-center justify-center mx-auto text-3xl shadow-md ${passed ? 'bg-emerald-100 text-emerald-600' : 'bg-rose-100 text-rose-600'}`}>
                         {passed ? '🏆' : '❌'}
                       </div>
 
-                      <div className="space-y-2">
+                      <div className="space-y-2 text-center">
                         <h2 className="text-2xl font-extrabold text-slate-900">
                           {passed ? 'Apsveicam! Eksāmens nokārtots!' : 'Eksāmens nav nokārtots'}
                         </h2>
@@ -792,12 +796,12 @@ export default function App() {
                         <div>
                           <p className="text-xs text-slate-500 font-medium">Statuss</p>
                           <p className={`text-lg font-extrabold ${passed ? 'text-emerald-600' : 'text-rose-600'}`}>
-                            {passed ? 'OK' : 'FAIL'}
+                            {passed ? 'Nokārtots' : 'Nenokārtots'}
                           </p>
                         </div>
                       </div>
 
-                      <div className="flex gap-3 justify-center pt-4">
+                      <div className="flex flex-wrap gap-3 justify-center pt-2">
                         <button
                           onClick={() => startExam(examQuestions.length === 10)}
                           className="bg-blue-600 hover:bg-blue-500 text-white font-semibold px-6 py-3 rounded-xl shadow transition"
@@ -811,6 +815,47 @@ export default function App() {
                           Atgriezties sākumā
                         </button>
                       </div>
+
+                      {/* Incorrect Answers Review section */}
+                      {incorrectQuestions.length > 0 && (
+                        <div className="pt-8 border-t border-slate-200 space-y-6 text-left">
+                          <h3 className="text-lg font-bold text-slate-900">Nepareizi atbildētie jautājumi ({incorrectQuestions.length})</h3>
+                          <div className="space-y-4">
+                            {incorrectQuestions.map(({ q, userAns }, idx) => (
+                              <div key={q.id} className="bg-rose-50/50 rounded-2xl p-5 border border-rose-200 space-y-3">
+                                <div className="flex justify-between items-center text-xs text-rose-700 font-semibold">
+                                  <span>{q.section}</span>
+                                  <span>ID: {q.id}</span>
+                                </div>
+                                <p className="font-bold text-slate-900 text-sm sm:text-base">{idx + 1}. {q.question}</p>
+                                <div className="space-y-2 pt-1">
+                                  {Object.keys(q.options).map(optKey => {
+                                    const opt = q.options[optKey];
+                                    const isUserSelected = userAns.includes(optKey);
+                                    const isCorrect = opt.correct;
+                                    let style = "border-slate-200 bg-white text-slate-700";
+                                    if (isCorrect) {
+                                      style = "border-emerald-300 bg-emerald-50 text-emerald-900 font-medium";
+                                    } else if (isUserSelected && !isCorrect) {
+                                      style = "border-rose-300 bg-rose-100 text-rose-900 font-medium";
+                                    }
+                                    return (
+                                      <div key={optKey} className={`p-3 rounded-xl border text-xs sm:text-sm flex items-start gap-3 ${style}`}>
+                                        <span className="font-bold uppercase w-5 h-5 rounded bg-white border border-slate-300 flex items-center justify-center text-xs flex-shrink-0">
+                                          {optKey}
+                                        </span>
+                                        <p className="flex-1">{opt.text}</p>
+                                        {isCorrect && <CheckCircle2 className="w-4 h-4 text-emerald-600 flex-shrink-0" />}
+                                        {isUserSelected && !isCorrect && <XCircle className="w-4 h-4 text-rose-600 flex-shrink-0" />}
+                                      </div>
+                                    );
+                                  })}
+                                </div>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      )}
                     </div>
                   );
                 })()}
