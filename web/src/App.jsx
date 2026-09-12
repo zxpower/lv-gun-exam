@@ -642,8 +642,10 @@ export default function App() {
               <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 sm:p-8 space-y-6">
                 <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 bg-slate-50 p-4 rounded-xl border border-slate-200">
                   <div>
-                    <h3 className="font-bold text-slate-900">Eksāmena Simulācija</h3>
-                    <p className="text-xs text-slate-500">40 jautājumi • Lai nokārtotu, jāatbild vismaz uz 36 pareizi (90%)</p>
+                    <h3 className="font-bold text-slate-900">{examQuestions.length === 10 ? 'Mini Testa Simulācija' : 'Eksāmena Simulācija'}</h3>
+                    <p className="text-xs text-slate-500">
+                      {examQuestions.length} jautājumi • {examQuestions.length === 10 ? 'Lai nokārtotu, jāatbild vismaz uz 9 pareizi (90%, 10 min)' : 'Lai nokārtotu, jāatbild vismaz uz 36 pareizi (90%)'}
+                    </p>
                   </div>
                   <div className="flex items-center gap-4">
                     <div className={`px-4 py-2 rounded-xl font-mono font-bold text-sm ${examTimeLeft < 300 ? 'bg-rose-100 text-rose-700 animate-pulse' : 'bg-blue-100 text-blue-700'}`}>
