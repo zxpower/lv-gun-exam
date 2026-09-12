@@ -142,15 +142,16 @@ export default function App() {
   };
 
   // Start official exam simulation (40 random questions from the pool, 40 mins)
-  const startExam = () => {
-    // Shuffle and pick 40
+  const startExam = (isMini = false) => {
+    const count = isMini ? 10 : 40;
+    const timeSecs = isMini ? 10 * 60 : 40 * 60;
     const shuffled = [...questions].sort(() => 0.5 - Math.random());
-    const selected = shuffled.slice(0, 40);
+    const selected = shuffled.slice(0, count);
     setExamQuestions(selected);
     setExamIndex(0);
     setExamAnswers({});
     setExamSubmitted(false);
-    setExamTimeLeft(40 * 60);
+    setExamTimeLeft(timeSecs);
     setExamActive(true);
     setActiveTab('exam');
   };
@@ -289,11 +290,18 @@ export default function App() {
               <span className="text-xs opacity-80">{questions.length} jaut.</span>
             </button>
             <button 
-              onClick={() => { startExam(); setMobileMenuOpen(false); }}
-              className={`w-full text-left px-4 py-3 rounded-xl text-sm font-medium transition flex items-center justify-between ${activeTab === 'exam' ? 'bg-emerald-600 text-white shadow' : 'bg-slate-800/80 text-slate-200'}`}
+              onClick={() => { startExam(false); setMobileMenuOpen(false); }}
+              className={`w-full text-left px-4 py-3 rounded-xl text-sm font-medium transition flex items-center justify-between ${activeTab === 'exam' && examQuestions.length === 40 ? 'bg-emerald-600 text-white shadow' : 'bg-slate-800/80 text-slate-200'}`}
             >
               <span>Eksāmena tests (40 jaut.)</span>
               <Play className="w-4 h-4 fill-current" />
+            </button>
+            <button 
+              onClick={() => { startExam(true); setMobileMenuOpen(false); }}
+              className={`w-full text-left px-4 py-3 rounded-xl text-sm font-medium transition flex items-center justify-between ${activeTab === 'exam' && examQuestions.length === 10 ? 'bg-amber-600 text-white shadow' : 'bg-slate-800/80 text-slate-200'}`}
+            >
+              <span>Mini tests (10 jaut., 10 min)</span>
+              <Sparkles className="w-4 h-4 text-amber-400" />
             </button>
             <button 
               onClick={() => { setActiveTab('bookmarks'); setMobileMenuOpen(false); }}
