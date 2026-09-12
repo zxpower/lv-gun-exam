@@ -230,10 +230,16 @@ export default function App() {
               Mācīties ({questions.length})
             </button>
             <button 
-              onClick={startExam}
-              className={`px-3.5 py-2 rounded-lg text-sm font-medium transition flex items-center gap-1.5 ${activeTab === 'exam' ? 'bg-emerald-600 text-white shadow' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'}`}
+              onClick={() => startExam(false)}
+              className={`px-3.5 py-2 rounded-lg text-sm font-medium transition flex items-center gap-1.5 ${activeTab === 'exam' && examQuestions.length === 40 ? 'bg-emerald-600 text-white shadow' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'}`}
             >
               <Play className="w-4 h-4 fill-current" /> Eksāmena tests
+            </button>
+            <button 
+              onClick={() => startExam(true)}
+              className={`px-3.5 py-2 rounded-lg text-sm font-medium transition flex items-center gap-1.5 ${activeTab === 'exam' && examQuestions.length === 10 ? 'bg-amber-600 text-white shadow' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'}`}
+            >
+              <Sparkles className="w-4 h-4 text-amber-400" /> Mini tests (10 jaut.)
             </button>
             <button 
               onClick={() => setActiveTab('bookmarks')}

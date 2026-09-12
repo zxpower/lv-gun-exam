@@ -8,8 +8,9 @@ Based on the official 2026 examination questions and correct answers parsed from
 
 - **Study Mode**: Browse all 515 official questions by section or all together. Receive instant feedback with correct answers highlighted in green.
 - **Exam Simulation**: Timed 40-minute test consisting of 40 random questions (matching official exam conditions). Requires at least 36 correct answers (90%) to pass.
+- **Mini Test**: Quick 10-minute test consisting of 10 random questions. Requires at least 9 correct answers (90%) to pass.
 - **Bookmarks**: Flag difficult or important questions for quick review.
-- **Statistics**: Track your total answered questions, overall accuracy, and exam history.
+- **Statistics**: Track your total answered questions, overall accuracy, exam history, and mini test stats.
 
 ## Tech Stack
 
