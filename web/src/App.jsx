@@ -51,6 +51,8 @@ export default function App() {
       return JSON.parse(localStorage.getItem('gun_exam_stats')) || {
         completedExams: 0,
         passedExams: 0,
+        completedMiniTests: 0,
+        passedMiniTests: 0,
         totalAnswered: 0,
         correctAnswers: 0,
         questionHistory: {} // qId: { correct: 0, incorrect: 0 }
@@ -59,6 +61,8 @@ export default function App() {
       return {
         completedExams: 0,
         passedExams: 0,
+        completedMiniTests: 0,
+        passedMiniTests: 0,
         totalAnswered: 0,
         correctAnswers: 0,
         questionHistory: {}
@@ -162,12 +166,25 @@ export default function App() {
       if (isCorrect) correctCount++;
     });
 
-    const passed = correctCount >= 36; // 36/40 required to pass (90%)
-    setStats(prev => ({
-      ...prev,
-      completedExams: prev.completedExams + 1,
-      passedExams: prev.passedExams + (passed ? 1 : 0)
-    }));
+    const isMini = examQuestions.length === 10;
+    const required = isMini ? 9 : 36;
+    const passed = correctCount >= required;
+
+    setStats(prev => {
+      if (isMini) {
+        return {
+          ...prev,
+          completedMiniTests: (prev.completedMiniTests || 0) + 1,
+          passedMiniTests: (prev.passedMiniTests || 0) + (passed ? 1 : 0)
+        };
+      } else {
+        return {
+          ...prev,
+          completedExams: prev.completedExams + 1,
+          passedExams: prev.passedExams + (passed ? 1 : 0)
+        };
+      }
+    });
   };
 
   if (loading) {
@@ -731,7 +748,7 @@ export default function App() {
                       correctCount++;
                     }
                   });
-                  const passed = correctCount >= 18;
+                  const passed = correctCount >= (examQuestions.length === 10 ? 9 : 36);
                   const percentage = Math.round((correctCount / examQuestions.length) * 100);
 
                   return (
@@ -745,7 +762,7 @@ export default function App() {
                           {passed ? 'Apsveicam! Eksāmens nokārtots!' : 'Eksāmens nav nokārtots'}
                         </h2>
                         <p className="text-sm text-slate-600">
-                          {passed ? 'Jūs esat veiksmīgi pierādījis zināšanas un prasības.' : 'Nepieciešams vismaz 36 pareizas atbildes (90%). Mēģiniet vēlreiz!'}
+                          {passed ? 'Jūs esat veiksmīgi pierādījis zināšanas un prasības.' : `Nepieciešams vismaz ${examQuestions.length === 10 ? '9 pareizas atbildes (90%)' : '36 pareizas atbildes (90%)'}. Mēģiniet vēlreiz!`}
                         </p>
                       </div>
 
@@ -768,7 +785,7 @@ export default function App() {
 
                       <div className="flex gap-3 justify-center pt-4">
                         <button
-                          onClick={startExam}
+                          onClick={() => startExam(examQuestions.length === 10)}
                           className="bg-blue-600 hover:bg-blue-500 text-white font-semibold px-6 py-3 rounded-xl shadow transition"
                         >
                           Mēģināt vēlreiz
@@ -854,20 +871,24 @@ export default function App() {
         {activeTab === 'stats' && (
           <div className="space-y-6 animate-fadeIn">
             <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 space-y-6">
-              <h3 className="text-lg font-bold text-slate-900">Mācību Statistika un Progresa Pārskats</h3>
+              <h3 className="text-lg font-bold text-slate-900">Mācību statistika un progresa pārskats</h3>
               
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
                 <div className="bg-slate-50 p-5 rounded-xl border border-slate-200">
-                  <p className="text-xs text-slate-500 font-medium">Atrisinātie Jautājumi (Kopā)</p>
+                  <p className="text-xs text-slate-500 font-medium">Atrisinātie jautājumi (kopā)</p>
                   <p className="text-2xl font-bold text-slate-900 mt-1">{stats.totalAnswered}</p>
                 </div>
                 <div className="bg-slate-50 p-5 rounded-xl border border-slate-200">
-                  <p className="text-xs text-slate-500 font-medium">Pareizās Atbildes</p>
+                  <p className="text-xs text-slate-500 font-medium">Pareizās atbildes</p>
                   <p className="text-2xl font-bold text-emerald-600 mt-1">{stats.correctAnswers}</p>
                 </div>
                 <div className="bg-slate-50 p-5 rounded-xl border border-slate-200">
-                  <p className="text-xs text-slate-500 font-medium">Nokārtoti Eksameni</p>
-                  <p className="text-2xl font-bold text-blue-600 mt-1">{stats.passedExams} / {stats.completedExams}</p>
+                  <p className="text-xs text-slate-500 font-medium">Nokārtoti eksameni</p>
+                  <p className="text-2xl font-bold text-blue-600 mt-1">{stats.passedExams || 0} / {stats.completedExams || 0}</p>
+                </div>
+                <div className="bg-slate-50 p-5 rounded-xl border border-slate-200">
+                  <p className="text-xs text-slate-500 font-medium">Nokārtoti mini testi</p>
+                  <p className="text-2xl font-bold text-amber-600 mt-1">{stats.passedMiniTests || 0} / {stats.completedMiniTests || 0}</p>
                 </div>
               </div>
 
@@ -878,6 +899,8 @@ export default function App() {
                       setStats({
                         completedExams: 0,
                         passedExams: 0,
+                        completedMiniTests: 0,
+                        passedMiniTests: 0,
                         totalAnswered: 0,
                         correctAnswers: 0,
                         questionHistory: {}
