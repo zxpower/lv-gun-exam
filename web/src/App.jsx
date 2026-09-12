@@ -141,13 +141,39 @@ export default function App() {
     });
   };
 
-  // Start official exam simulation (40 random questions from the pool, 40 mins)
+  // Start exam / mini test: pick balanced questions across all sections, then shuffle final order
   const startExam = (isMini = false) => {
-    const count = isMini ? 10 : 40;
+    const questionsPerSection = isMini ? 1 : 4;
     const timeSecs = isMini ? 10 * 60 : 40 * 60;
-    const shuffled = [...questions].sort(() => 0.5 - Math.random());
-    const selected = shuffled.slice(0, count);
-    setExamQuestions(selected);
+    
+    // Group questions by section
+    const sectionMap = {};
+    questions.forEach(q => {
+      if (!sectionMap[q.section]) sectionMap[q.section] = [];
+      sectionMap[q.section].push(q);
+    });
+
+    const selected = [];
+    Object.keys(sectionMap).forEach(sec => {
+      const secQs = [...sectionMap[sec]].sort(() => 0.5 - Math.random());
+      const picked = secQs.slice(0, questionsPerSection);
+      selected.push(...picked);
+    });
+
+    // If we need slightly more/less to reach exact count (e.g. 10 or 40), fill or trim from shuffled pool
+    let finalSelected = [...selected].sort(() => 0.5 - Math.random());
+    const targetCount = isMini ? 10 : 40;
+    if (finalSelected.length > targetCount) {
+      finalSelected = finalSelected.slice(0, targetCount);
+    } else if (finalSelected.length < targetCount) {
+      const remaining = questions.filter(q => !finalSelected.includes(q)).sort(() => 0.5 - Math.random());
+      finalSelected.push(...remaining.slice(0, targetCount - finalSelected.length));
+    }
+
+    // Final shuffle so questions appear in random order
+    finalSelected.sort(() => 0.5 - Math.random());
+
+    setExamQuestions(finalSelected);
     setExamIndex(0);
     setExamAnswers({});
     setExamSubmitted(false);
